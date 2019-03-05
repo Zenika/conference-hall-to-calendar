@@ -1,97 +1,57 @@
 # conference-hall-to-calendar
 Generate a list of calendar events from a conference-hall JSON export
 
+A typical generated schedule would look like this
+
+![Content is kept blurred to protect conference](example.png)
+
 ## Getting Started
 
-Install Python and PIP
-
-Install Google Calendar Pytho API
-```
-pip install pytimeparse
-pip install rfc3339
-pip install iso8601
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
-```
-
-Create a Google project 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Install Python 3 and pip
 
-```
-Give examples
-```
+Generate a Google Agenda `credentials.json` file (see in [Python Quickstart](https://developers.google.com/calendar/quickstart/python))
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Checkout this project
 
-Say what the step will be
+Then `pip install -r requirements.txt`
 
-```
-Give the example
-```
+And you're ready to go !
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Change the `config.json` file according to your needs (it should be documented enough for you to understand)
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
+There are no automated tests, sorry
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+There is no deployment needed, just run this script from your machine
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Just submit pull request, and if it is good, it will go !
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+I'm not aware of Python versionning :-(
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Nicolas Delsaux** - *Initial work* - [Riduidel](https://github.com/Riduidel)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU GENERAL PUBLIC LICENSE - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Thanks to authors of conference-hall.io
+* Thanks to Seb Velay for ideas on how to use Google correctly
 
