@@ -92,6 +92,7 @@ def process_conference(conference, config):
     purgeable_talks.extend(talks)
     for period in period_list:
         create_events_in_period(calendar, period, purgeable_talks, config, formats_map, speakers_map)
+    logger.info("All time slots are full, conference schedule is ready to be improved by hand at %s" % calendar['summary'])
 
 def create_events_in_period(calendar, period, purgeable_talks, config, formats_map, speakers_map):
     conference_end = parse_date(period['end'])
@@ -103,14 +104,25 @@ def create_events_in_period(calendar, period, purgeable_talks, config, formats_m
     while purgeable_talks:
         t = purgeable_talks.pop(0)
         improve_talk(t, config, formats_map, speakers_map)
+        start_time = parse_date(previous_event['end']['dateTime'])
+        delta = t['timedelta']
+        end_time = start_time + delta
+        t['dates'] = {
+            'start': start_time,
+            'end': end_time
+        }
+        logger.debug("evaluating event %s (from %s to %s)"%(t['title'], start_time, end_time))
+        if ('strict' in period) and (period['strict']==True):
+            if t['dates']['end']>conference_end:
+                logger.debug("conference period %s is full!" % period)
+                return
+        else:
+            if t['dates']['start']>conference_end:
+                logger.debug("conference period %s is full!" % period)
+                return
         next_event = create_event_for(t, calendar, config, previous_event)
         previous_event = next_event
         logger.info("added event %s"%next_event['summary'])
-        talk_end = parse_date(previous_event['end']['dateTime'])
-        if talk_end>conference_end:
-            logger.info("conference period %s is full!" % period)
-            return
-    logger.info("All time slots are full, conference schedule is ready to be improved by hand at %s" % calendar)
 
 def improve_talk(talk, config, formats, speakers):
     if talk['title'] in config['overrides']:
@@ -150,19 +162,16 @@ def create_event_for(talk, calendar, config, previous_event):
     logger.info("adding an event for %s" % talk['title'])
     service = get_calendar_service()
 
-    start_time = parse_date(previous_event['end']['dateTime'])
-    delta = talk['timedelta']
-    end_time = start_time + delta
     event = {
         'summary': talk['title'],
         'location': config['location'],
         'description': talk['abstract'],
         'start': {
-            'dateTime': print_date(start_time),
+            'dateTime': print_date(talk['dates']['start']),
             'timeZone': config['timezone'],
         },
         'end': {
-            'dateTime': print_date(end_time),
+            'dateTime': print_date(talk['dates']['end']),
             'timeZone': config['timezone'],
         },
         }
