@@ -1,10 +1,16 @@
 {
     "timezone": "Europe/Paris",
     "location": "Zenika Lille, 19 Avenue Saint-Maur, 59110 La Madeleine, France",
-    "dates": {
-        "start": "2019-03-29T09:00:00+01:00",
-        "end": "2019-03-29T18:00:00+01:00"
-    },
+    "dates": [
+        {
+            "start": "2019-03-29T09:00:00+01:00",
+            "end": "2019-03-29T12:00:00+01:00"
+        },
+        {
+            "start": "2019-03-29T14:00:00+01:00",
+            "end": "2019-03-29T18:00:00+01:00"
+        }
+    ],
     "overrides": {
         "fix(yagni): stop doing useless things": {
             "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"

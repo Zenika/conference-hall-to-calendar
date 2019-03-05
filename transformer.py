@@ -45,21 +45,22 @@ def get_events_of_conference(calendar, config):
     """Get all events of the given conference (that's to say events of the given calendar in the good time period)"""
     global logger
     service = get_calendar_service()
-    page_token = None
     all_events = []
-    logger.info("getting events of %s between %s and %s" %(calendar['id'], config['dates']['start'], config['dates']['end']))
-    while True:
-        events_list = service.events().list(calendarId=calendar['id'], 
-                                        timeMin=config['dates']['start'],
-                                        timeMax=config['dates']['end'],
-                                        maxResults=10, singleEvents=True,
-                                        orderBy='startTime').execute()
-        logger.info("downloaded %d events" % len(all_events))
-        for event in events_list['items']:
-            all_events.append(event)
-        page_token = events_list.get('nextPageToken')
-        if not page_token:
-            break
+    for period in config['dates']:
+        logger.info("getting events of %s between %s and %s" %(calendar['id'], period['start'], period['end']))
+        page_token = None
+        while True:
+            events_list = service.events().list(calendarId=calendar['id'], 
+                                            timeMin=period['start'],
+                                            timeMax=period['end'],
+                                            maxResults=10, singleEvents=True,
+                                            orderBy='startTime').execute()
+            logger.info("downloaded %d events" % len(all_events))
+            for event in events_list['items']:
+                all_events.append(event)
+            page_token = events_list.get('nextPageToken')
+            if not page_token:
+                break
     return all_events
 
 def remove_previous_events(calendar, config):
@@ -83,25 +84,33 @@ def process_conference(conference, config):
     remove_previous_events(calendar, config)
     # And now, starting at start time, and until end time is elapsed, fill schedule with talks
     talks = sorted(conference['talks'], key=itemgetter('rating'), reverse=True)
-    existing_events = []
-    # create a fake event to have start time correctly set
-    conference_end = parse_date(config['dates']['end'])
-    previous_event = {
-        'start': {'dateTime': config['dates']['start']}, 
-        'end': {'dateTime': config['dates']['start']}, 
-    }
     formats_map = improve_formats(conference['formats'])
     speakers_map = improve_speakers(conference['speakers'])
-    for t in talks:
+
+    period_list = config['dates']
+    purgeable_talks = []
+    purgeable_talks.extend(talks)
+    for period in period_list:
+        create_events_in_period(calendar, period, purgeable_talks, config, formats_map, speakers_map)
+
+def create_events_in_period(calendar, period, purgeable_talks, config, formats_map, speakers_map):
+    conference_end = parse_date(period['end'])
+    # create a fake event to have start time correctly set
+    previous_event = {
+        'start': {'dateTime': period['start']}, 
+        'end': {'dateTime': period['start']}, 
+    }
+    while purgeable_talks:
+        t = purgeable_talks.pop(0)
         improve_talk(t, config, formats_map, speakers_map)
         next_event = create_event_for(t, calendar, config, previous_event)
-        existing_events.append(next_event)
         previous_event = next_event
-        logger.info("added event %s"%next_event)
+        logger.info("added event %s"%next_event['summary'])
         talk_end = parse_date(previous_event['end']['dateTime'])
         if talk_end>conference_end:
-            logger.info("conference schedule is full!")
-            break
+            logger.info("conference period %s is full!" % period)
+            return
+    logger.info("All time slots are full, conference schedule is ready to be improved by hand at %s" % calendar)
 
 def improve_talk(talk, config, formats, speakers):
     if talk['title'] in config['overrides']:
