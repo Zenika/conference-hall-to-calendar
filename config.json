@@ -1,19 +1,27 @@
 {
+    "timezone.doc": "As Calendar requires timezones, we have to provide them. So set here the timezone of your event",
     "timezone": "Europe/Paris",
+    "location.doc": "conference-hall contains this field, but it is missing from eport, so you have to duplicate it. There is an issue (https://github.com/bpetetot/conference-hall/issues/499) to include that field in export. Once solved, we will have to change development.",
     "location": "Zenika Lille, 19 Avenue Saint-Maur, 59110 La Madeleine, France",
+    "dates.doc": "These dates are in fact time periods during which we have to schedule talks. They are theorically subsets of periods given in conference-hall. Each period will be organized the same way.",
     "dates": [
         {
+            "start.doc": "start of each period is mandatory",
             "start": "2019-03-29T09:00:00+01:00",
+            "end.doc": "start of each period is mandatory",
             "end": "2019-03-29T12:00:00+01:00"
         },
         {
             "start": "2019-03-29T14:00:00+01:00",
             "end": "2019-03-29T18:00:00+01:00",
+            "strict.doc": "strictness is an optional field that, when true, forbids any kind of talk to continue after the end of the given period. It is typically used for the last day of conference evening.",
             "strict": true
         }
     ],
+    "overrides.doc": "Elements here allow talks which miss some informations to have these informations injected. Each element in this map links talk title (as given in conference-hall) to elements we want to inject.",
     "overrides": {
         "fix(yagni): stop doing useless things": {
+            "formats.doc": "As an example, we set here the format to be 30 minutes (as it is not present in talk)",
             "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"
         }
     }
