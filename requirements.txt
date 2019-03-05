@@ -1,0 +1,6 @@
+pytimeparse==1.1.8
+rfc3339==6.0
+iso8601==0.1.12
+google_auth_oauthlib==0.2.0
+protobuf==3.7.0
+google_api_python_client==1.7.8
