@@ -7,6 +7,9 @@ Install Python and PIP
 
 Install Google Calendar Pytho API
 ```
+pip install pytimeparse
+pip install rfc3339
+pip install iso8601
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 

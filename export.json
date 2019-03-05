@@ -1,1 +1,804 @@
-{"name":"Technozaure lille mars 2019 ","formats":[{"name":"30 minutes","description":null,"id":"148f51e1-32d0-556b-bb56-b343cad5ad04"},{"name":"15 minutes","id":"82af33e8-e296-5772-b2cf-c0536c24cbe6"},{"name":"45 minutes","id":"48d8a462-0a82-5866-a696-8440da49f907"},{"id":"2ee0a43e-45db-546b-95eb-adf6c3b1b1a5","name":"60 minutes"}],"talks":[{"title":" Ne me libère pas, je m'en charge","state":"submitted","level":"beginner","abstract":"\" Nous ne souhaitons certainement pas être l’égal de l’homme ; nous voulons pouvoir nous définir par nous-mêmes et pour nous-mêmes. \"\n\nLes femmes sont-elles vraiment moins fortes en maths que les hommes ? Les femmes doivent-elles vraiment prouver 2 fois plus que les hommes ce qu'elles avancent ?  Deviens-t-on parano à force de ne pas se faire entendre ?\nEt nous ne sommes pas seules ! Car nous remarquons que ces problèmes s'étendent au dehors du genre de la femme, et du domaine de l'informatique.\n\nNous vous proposons une petite session de réflexion sur la portée de nos paroles, et nous essayerons d'apporter quelques clés pour s'affirmer dans un domaine qui nous plaît.\n\n\n","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["M7Y4cdPiaXRcWJyJZpClFbIJrtj2","wzqZFxqypoeYqoR1aAh2tVIOgQf2"],"rating":4.470588235294118,"loves":10,"hates":0},{"title":"k3s, c'est 5 de moins que k8s","state":"submitted","level":"beginner","abstract":"Projet d'incubation par Rancher Labs, **k3s** est une distribution légère de Kubernetes dédiée aux architectures x86, ARM64 and ARMv7.\n\nDistribuée sous la forme d'un binaire unique, k3s est facile d'installation et ne nécessite que 512Mo pour un noeud master et 75Mo de ram pour un noeud d'exécution.\n\nDans ce rapide talk de 15minutes, nous verrons :\n1. comment Rancher Labs a réussi à obtenir ce résultat\n2. quels sont les use-cases de k3s\n3. une mise en pratique","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["ycA0PAOpF1dSYTycuqypfD02zBj1"],"comments":null,"rating":4.2,"loves":6,"hates":0},{"title":"Comment fonctionne l'event loop de Node.js","state":"submitted","level":"intermediate","abstract":"On nous dit que Node.js est trop bien parce qu'il est \"non-bloquant\".\n\nOn nous dit \"Node.js est mono threadé, enfin pas exactement... \". \n\nDans ce talk, nous prenons le taureau par les cornes et nous demystifions les concepts derrière l'event loop de Node.js.\n\nPromis nous ferons tout pour que ça reste compréhensible !","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["6klOX1xduHbBCxddJhe0sBJLZp13","CklO45ZQyZYm9v3cXlBB6CNSUbH2"],"rating":4.1875,"loves":6,"hates":0},{"title":"Architecture hexagonale for dummies","state":"submitted","level":"beginner","abstract":"Qu'est ce que l'architecture hexagonale, a quoi ça sert ? Avantages défauts ? Comment ça fonctionne ?\nDans ce talk vous trouverez toutes les bases sur ce buzz word. De quoi briller en société et peut être (je dis bien peut être) utiliser ce concept chez l'un de vos clients.","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["CklO45ZQyZYm9v3cXlBB6CNSUbH2","6klOX1xduHbBCxddJhe0sBJLZp13"],"rating":4.153846153846154,"loves":2,"hates":0},{"title":"Algorithmes génétiques : Création du clavier (presque !) parfait","state":"submitted","level":"beginner","abstract":"Vous avez toujours rêvé d'être efficace avec un ordinateur mais vous ne disposez que d'un seul doigt ?\n\nVotre clavier n'est pas adapté à votre utilisation et vous désirez en changer afin d'optimiser votre rapidité d'écriture ?\n\nNous avons LA solution ! \n\nAvec notre clavier spécifique, vous pourrez enfin profiter de la joie de programmer sans attendre !\nVenez découvrir notre nouveau prototype de clavier monodigital qui va révolutionner la façon de taper des lettres !\n\nPlus sérieusement, nous vous proposons de découvrir la puissance des algorithmes génétiques à travers un cas concret : la génération de layouts de saisie. Venez nombreux !","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["NFro9rDzi4T0XJjwGReHBu70be73","pwEPRXEjr9SPbx2M3mFmDTSsVeB2"],"rating":4.153846153846154,"loves":5,"hates":0},{"title":"Le CIA : Le Collectif des Imposteurs Anonymes","state":"submitted","level":"beginner","abstract":"Le **syndrome de l’imposteur**, c’est le fait d’attribuer la réussite d’un accomplissement à autre chose que **ses propres compétences**.  \nEn être atteint peut entraîner toutes sortes d’angoisses, allant de la simple remise en question jusqu'au **repli sur soi**.  \nEn prendre conscience peut permettre de s’en _libérer_ et de ne plus se sentir seul… de **décomplexer** en somme.\n\nLa question à laquelle nous tenterons de répondre durant ce talk est : Pourquoi ?\n\nPourrait-on en faire un atout ?\n\n","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["uGPuOB4Ca4U1yhtGb9DeK3l4tZt1","wzqZFxqypoeYqoR1aAh2tVIOgQf2"],"comments":"Nous réalisons de plus en plus que ce syndrome touche énormément de monde dans l’IT.  \nElya Bernard et moi-même sommes atteint de ce syndrome avec des scores respectifs de 78/100 et 80/100 sur l’[échelle de Clance](http://paulineroseclance.com/impostor_phenomenon.html). \nNous pensons qu’il serait utile d’en parler et d’apporter  notre témoignage, ainsi que celui des différentes personnes que nous avons déjà interrogées afin de comprendre qui était touché et de quelle façon.\n","references":"Talk proposé (mais refusé) à SnowCamp 2019.\n","rating":4.142857142857143,"loves":9,"hates":0},{"title":"fix(yagni): stop doing useless things","state":"submitted","level":"beginner","abstract":"- Si tu cherches une conf pour apprendre un nouveau langage --> Va sur openclassroom comme tout le monde\n- Si tu cherches à comprendre HTTP 17.24 --> ça n'existe pas\n- Si tu veux comprendre les monades --> appel nous dès que c'est fait (nous on a lâché l'affaire)\n- Si tu veux vraiment être agile --> Viens, on aime les rêveurs\n- Si tu veux gagner du temps tous les jours --> Ne rate pas cette conf (on a même des bonbons)\n- Si tu ne sais toujours pas si tu dois venir à cette conf --> Viens, au moins on a des bonbons","speakers":["6klOX1xduHbBCxddJhe0sBJLZp13","kGnfoGvvsiZpuBE8UhyBZIQFlKr1"],"references":null,"rating":4.133333333333334,"loves":7,"hates":0},{"title":"TLS 1.3 arrive!!! Et si on comprenait déjà ce que fait TLS 1.2 ?","state":"submitted","level":"beginner","abstract":"“Quand on commande sur Internet, il faut que le cadenas soit affiché à côté de l'url…” C'est ce qu'on me disait lorsque je commençais à y faire des achats, il y a \"quelques\" années... #modem56K\n\n\nDepuis, j'ai du mettre en place des échanges TLS, côté client et serveur. Nous étions régulièrement confrontés à des erreurs que nous ne comprenions pas bien (#handskake-failure) jusqu'au jour où j'ai décidé de bien comprendre son fonctionnement.\n\n\nViens (re)découvrir TLS, dans un talk où je vais vulgariser les principes pour que toi aussi, tu sois enfin à l'aise avec.","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["et1GIdihpCQC2I0S2HLI51IDy2n1"],"references":"j'ai déjà fait un quickie pour le GDG Lille sur un autre sujet : https://www.meetup.com/fr-FR/GDG-Lille/events/247897909/.\nJe fais également des conférences le midi sur divers sujets. Depuis que je suis chez Zenika Lille, j'ai donné un conférence sur le borrow checker de Rust.\n\n\nPourquoi ce talk ?\nJ'ai eu régulièrement à mettre en place des communications passant par TLS. Du point de vue du dév, sa mise en place était toujours un peu obscure. Je suis intervenu sur beaucoup de projets où les équipes ne comprenaient pas bien : \n\n* quelle est la différence entre un certificat autosigné et un certificat signé par une autorité reconnue\n* à quoi correspond un truststore\n* à quoi sert une authentification mutuelle\n* à quoi sert un keystore\n* ...\n\nLe problème est que la compréhension de son fonctionnement demande des bases de cryptographie (chiffrement (a)symétrique, hashage, ...).\n\nJe propose ce talk pour essayer de vulgariser le sujet et le rendre suffisamment accessible pour que les personnes présentes puissent comprendre ce qui se passe derrière HTTPS et derrière une authentification mutuelle TLS. Mon objectif est qu'ils sachent ce qu'ils font quand ils touchent à un truststore/keystore, ou quand ils génèrent des certificats autosignés.\n\nPlan :\n\n* chiffrement vs ~~cryptage~~ vs hashage\n* clé symétrique : AES\n* clé asymétrique : RSA / ECDSA  : chiffrement, signature\n* Certificat X509\n* TLS 1.2 : algo\n* TLS 1.2 : authentification mutuelle","rating":4.111111111111111,"loves":3,"hates":0},{"title":"Le petit Nicolas fait du Web","state":"submitted","level":"beginner","abstract":"Quelle joie de faire du Web : écrire du HTML, jouer avec les CSS Grid, chaîner les opérateurs sur les Observables, ou encore configurer les outils nous permettant de développer des produits de qualité pour nos utilisateurs.\nUne joie pour tout le monde ? Bien sûr ! En fait pas si sûr que ça. Prenons par exemple un développeur expérimenté, que nous nommerons Nicolas (le nom a été choisi au hasard)..\n\nIl a l'habitude de la programmation, plutôt orientée Java. Sa dernière et seule expérience d'interfaces graphiques étaient développées en Swing ou en Scriptaculous. A l'époque, c'était grandement suffisant pour notre protagoniste.\nJusqu'au jour où son client lui a demandé de développer une interface VueJS. Il perd ses moyens, il doute, il se remet en question... devant l'ecosystème Web de 2019. Le gap était trop important pour lui. Et si on y allait étape par étape ?\n\nDurant cette conférence, nous aborderons toutes les pratiques pour appliquer les nouvelles APIs, syntaxes, bonne pratiques à une application développé par Nicolas.\n\n\n","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["fCgh32awnkMbOhjAfk0YHlNGjhI3","H3QHP1wvJDUG0sW402gh9ktbNx03"],"rating":4.086956521739131,"loves":7,"hates":0},{"title":"Que se passe t-il lorsque je vais sur Google.fr ?","state":"submitted","level":"beginner","abstract":"Le fait d’ouvrir son navigateur préféré, taper l’adresse d’un site web est devenu l’une des tâches les plus banales de notre génération. En quelques secondes seulement, nous sommes sur notre réseau social préféré, à commenter les dernières photos de notre meilleure amie ou encore jouer au dernier jeu addictif. Mais savons nous toute la mécanique derrière ces quelques secondes nécessaires à afficher cette page ?\n\nPendant cette conference, nous allons revenir sur toutes les entrailles du World Wide Web. Au programme nous aborderons les protocoles HTTP et DNS, les différents caches ou encore du rendering au sein de votre navigateur… \n\n","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["H3QHP1wvJDUG0sW402gh9ktbNx03","6klOX1xduHbBCxddJhe0sBJLZp13"],"references":"EN 2018, l’ensemble des frameworks web se challenger mutuellement afin d’avoir un bundle final le plus petit possible. Le but de cette présentation est de vous prouver que quand nous parlons de performance, cela ne s’arrête pas à la concatenation/minification de vos ressources statiques. Plusieurs optimisations peuvent être mises en place afin de charger votre site le plus rapidement possible et rendre vos utilisateurs heureux. \n\nCette conférence sera donnée avec Delphin Aubin de Zenika Lille","rating":4.066666666666666,"loves":4,"hates":0},{"title":"Votre stack micro service, je vous la sers bloquante ou réactive ?","state":"submitted","level":"intermediate","abstract":"Bravo, vous avez décidez de casser le monolithe qu'était votre site web en choisissant de partir sur des micros services. Mais vous vous posez des questions :\n- comment ne pas ralentir mon site quand un service tiers est long à répondre ?\n- comment dealer avec des services qui sont parfois indisponibles ?\n- comment répondre à un grand nombre d'appel très rapidement sans ralentir mon application ?\n\nJe vous propose de répondre à ces questions (et bien d'autres), grâce à la programmation réactive, et avec les technos que vous avez l'habitude d'utiliser. A travers cette conférence, nous verrons ce qu'est la programmation réactive, comment passer d'une application Spring Web à une application Spring Webflux facilement, faire des appels en réactifs à votre base de données et streamer les réponses de vos API.\n\n\nPrésentation et live coding sont au programme.","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["EbyOSxWhIjf809ckqEJS3qFHw4e2"],"comments":"Entre 30 et 45 min mais pas sur encore :)","rating":4.055555555555555,"loves":4,"hates":0},{"title":"Cobol l'avenir du futur !","state":"submitted","level":"beginner","abstract":"*\"Un peuple qui oublie son passé se condamne à le revivre.\"*  **Winston Churchill**\n\n\n\nLe Cobol, cette technologie qui doit \"disparaître dans quelques année\" depuis plus de  20 ans... Tout le monde dit que \"c'est nul\" et pourtant des nouveaux projets démarrent en Cobol tous les jours.\n\n\nAprès tout, peut être qu'en observant sans apriori on peut apprendre des choses.\n\n\n\n\n\n\n\n\n","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["6klOX1xduHbBCxddJhe0sBJLZp13"],"rating":4,"loves":3,"hates":0},{"title":"L'histoire des modes en informatique","state":"submitted","level":"beginner","abstract":"En informatique, tout est dans tout.\nEt pourtant, depuis vingt ans, il y a eu bien des modes à tous les niveaux\n\n* Des paradigmes sont devenus à la mode (ou ont perdu les faveurs du public)\n* Des architectures (physiques ou logicielles) ont été le nec plus ultra avant de sombrer\n* Des outils considérés comme indispensables sont devenus grossièrement inutiles\n* Des méthodes ont simplement disparu\n\nDans cette présentation, j'essayerai de cerner à travers un voyage dans les vingt dernières années certains des moteurs de ces modes, qui ne sont pas forcément ceux qu'on croit.\n\n**ATTENTION** cette présentation contient des opinions personnelles, qui seront présentées comme telles et séparées des éléments factuels.","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["fCgh32awnkMbOhjAfk0YHlNGjhI3"],"rating":3.933333333333333,"loves":3,"hates":0},{"title":"Kubernetes and Vault integration for dummies","state":"submitted","level":"intermediate","abstract":"La gestion des secrets, c'est toujours la chose qu'on fait en dernier... Du coup, généralement, ce n'est pas glorieux... \nEn 15 minutes, vous allez voir comment intégrer Vault avec Kubernetes afin de pouvoir centraliser vos secrets, et les rendre facilement accessible dans vos applications quelque soit le langage\n\n","speakers":["GY6opsCfQxckDQdtPADOJHMtlUf2"],"references":"https://github.com/nirmata/kube-vault-client\n","rating":3.9166666666666665,"loves":3,"hates":0},{"title":"Des test end to end moins douloureux avec Cypress.io","state":"submitted","level":"beginner","abstract":"Les test e2e ont toujours été pénible à écrire, avec des problèmes d'asynchronismes, de lenteurs, de verbosité... Je vous propose de vous réconcilier avec les tests end to end via une présentation de l'outil Cypress.io\n\nArrivé sur le marché l'année dernière, cette solution suscite un certain engouement, et permet de réaliser vos tests dans un environnement beaucoup plus dev friendly. ","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["C9GUCBO8PEbD8KoBCUESnzypO7u2"],"rating":3.909090909090909,"loves":1,"hates":0},{"title":"Avoir une maison connectée libre ! Introduction à Open Hab","state":"submitted","level":"beginner","abstract":"## Introduction à Open Hab\n\nDans le monde merveilleux de la domotique, nombreuses solutions propriétaires et protocoles nous brident pour une gestion complète de notre maison connectée. Néanmoins il existe quelques solutions afin de remédier à ce problème.\n\nAujourd'hui nous parlerons de Open Hab 2, une solution ouverte est indépendante au cœur de votre maison connectée.\n\n\n### Plan :\n\n* Introduction à Open Hab dans le monde de la domotique\n* Découverte des possibilités d'Open Hab\n* Installation et configuration sur une Raspberry\n* Démo : Connections d'une lampe avec un assistant Google\n","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["PsCuTjLS9UNf3YrBDBrOc6SiJi13"],"comments":"Besoin de 5-10 minutes d'installation ","references":"https://www.openhab.org/","rating":3.9,"loves":2,"hates":0},{"title":"Zenika, Capgemini sommes nous si différent ?","state":"submitted","level":"beginner","abstract":"No spoiler here !\n\nMais peut être qu'on verra si y a des points communs ou des points de divergences.\nEt peut être qu'on décidera ensemble pour répondre à cette question","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["X7XymhqINGST1YOWpNbq6Rvw4Od2"],"rating":3.8947368421052633,"loves":7,"hates":1},{"title":"What's new on the Web platform ?","state":"submitted","level":"beginner","abstract":"Nous sommes tous d'accord que nous avons atteint une phase beaucoup plus calme concernant les frameworks JavaScript. VueJS, ReactJS et Angular sont bien installés et restent les solutions plus utilisées. Mais cela ne veut pas dire, que la plateforme Web n'évolue pas. Bien au contraire. \n\nPrenons le temps d'aborder les nouveautés des standards JavaScript, CSS ou encore HTML. Lors de l'écriture de cet abstract, je pourrais parler de Intersection Observer, Priority Hints, constructable stylesheet, Trusted Web activities, HTTP3, ... . Mais je suis sûr que d'autres standards seront sortis juste avec la conférence...","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["H3QHP1wvJDUG0sW402gh9ktbNx03"],"rating":3.857142857142857,"loves":5,"hates":0},{"title":"Kotlin Discovery","state":"submitted","level":"beginner","abstract":"Envie d'un voyage découvert gratuit sur l'ile de Kotlin ? vous êtes au bon endroit.  Nous allons découvrir l'ensemble de l'écosystème , comment coder en Kotlin style et pleins d'autre informations utiles  pour se lancer dans l'aventure Kotlin.\n\nVenez assister à cette présentation ! vous allez découvrir la cool attitude de Kotlin  :)","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["qKEJA6dE4papgitmcyPcfsiZhaH3"],"comments":"Hello les Z !","references":"Cette présentation a déjà été donnée :\n\n-  PremedIT (Running Care)","rating":3.8181818181818183,"loves":3,"hates":0},{"title":"ES 2019, quoi de neuf ?","state":"submitted","level":"beginner","abstract":"Un petit talk pour balayer les nouvelles fonctionnalités de ECMASCRIPT2019.\n\n*Avec une description comme ça, si vous ne votez pas pour ce talk je ne comprend pas !*\n\n*:-P*\n","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["E30b8NpGGBhxsy6cTxUs8UiknPj1","6klOX1xduHbBCxddJhe0sBJLZp13"],"rating":3.75,"loves":5,"hates":0},{"title":"Comment développez votre prochaine application Web avec Firebase","state":"submitted","level":"beginner","abstract":"L'offre Firebase proposée par Google est une galaxie. Et malheureusement nous n'aurons pas le temps de tout aborder. Nous allons principalement aborder les produits permettant de stocker des données (FireStore), de gérer l'authentification, d'héberger vos SPA utilisant votre framework JavaScript de prédilection ou encore les Cloud Functions.\n\nSi vous avez toujours eu envie de développer une nouvelle application Web, mais sans trop se soucier de la partie back ou encore de la base de données, Firebase peut être la réponse à vos besoins.\n\nÀ la fin de ce talk, vous saurez comment développer, déployer et utiliser votre application grâce à l'infrastructure de Google.","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["uGPuOB4Ca4U1yhtGb9DeK3l4tZt1","H3QHP1wvJDUG0sW402gh9ktbNx03"],"references":"C'est la version Talk du codelab que nous avons donné à :\n- NightClazz Zenika Montréal\n- NightClass Zenika Lille\n- DevFest Paris 2019","rating":3.727272727272727,"loves":5,"hates":0},{"title":"Tavernier une bière !","state":"submitted","level":"beginner","abstract":"Tarvern est une infrastructure avancée de test d'API, pour HTTP ou d'autres protocoles,  basée sur pytest en python.\n\nAprès une petite introduction sur Tarvern, nous allons illustrer son utilisation en testant une petite API qui liste les bières en stocke dans un bar.","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["M7Y4cdPiaXRcWJyJZpClFbIJrtj2"],"rating":3.6666666666666665,"loves":3,"hates":0},{"title":"Gestion de projet, l'imposture intellectuelle","state":"submitted","level":"beginner","abstract":"Dans la pyramide de Maslow version IT, le CP (Et assimilé) est tout en haut. Ca tombe bien, dans le schéma hiérarchique aussi, et dans la grille des salaires idems. Pourtant dans l'éco-système il semblerait que les développeurs qui font des logiciels soient plus utiles...\n\nA quoi sert un chef de projet ? Comment survivent-ils? Pouvez vous faire un projet sans CP? Combien faut-il de CP pour changer une ampoule? Quelles évolutions pour le futur? La réponse à toutes ces questions et bien plus encore sera disponible dans un PWP (Et un Excel!) à l'issue de cette présentation.","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["LvVna1f0DXQaMKQMFaxi5ddUvZv2"],"references":"Je sais pas exactement ce qu'il faut mettre ici :D\nTalk proposé en interne à Zenika, présenté en midi-conf à Décathlon.\nSpeaker (Sur d'autres sujets) à AT Aix en Provence (16), AT Lille (16/17/18), PMI Lille (18), Paris Agile by Night (16), orga Meet-Up Nord agile, Orga Nord Agile.","rating":3.6470588235294117,"loves":5,"hates":0},{"title":"Méthode de Monte-Carlo, prise de décision et biais du survivant ","state":"submitted","level":"intermediate","abstract":"\"Les 5 habitudes des leaders qui réussissent, la 4ème va vous surprendre.\"\nQu'est ce que la méthode de Monte-Carlo? Comment l'utiliser pour prendre des décisions? Qu'est ce qu'une bonne ou une mauvaise décision et pourquoi on ne peut pas les juger à postériori? Pourquoi le mec qui gagne à la fin n'est pas forcément le meilleur, mais probablement juste le plus chanceux.\nUn talk qui aborde des modèles mathématiques, les biais d'apprentissages, la chance et les gens idiots.","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["LvVna1f0DXQaMKQMFaxi5ddUvZv2"],"comments":"Conference hall c'est quand même tellement, tellement torché avec le cul en vrai.","references":"J'ai conseillé Jeff Bezos pour lancer Amazon, l'Iphone 1 était mon idée et je suis derrière le cabinet d'avocat qui soutient Uber sur l'équité au sein de ses bureaux. Autant dire que mes credentials sont bulletproofs.","rating":3.642857142857143,"loves":6,"hates":1},{"title":"Comment bien choisir son langage lors d'une transformation numérique ? ","state":"submitted","level":"beginner","abstract":"Lors d'une transformation, le choix d'un langage adéquat permet de la faciliter.  Nous allons voir ensemble, les piéges à éviter et comment choisir un ou plusieurs langage.","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["fjcIJOphAiYCrtQ2x1HaIlA72T53"],"rating":3.6153846153846154,"loves":2,"hates":0},{"title":"GitOps avec WeaveFlux","state":"submitted","abstract":"Dans le monde, il y a 10 catégories de personnes :  ceux qui font du push pipeline, et ceux qui font du pull pipeline. \n\nLe but de ce quickies est de vous présenter au travers d'une démo une approche différente de votre continuous deployment sur Kubernetes via l'outils Weave Flux proposé par [https://www.weave.works]\n","speakers":["GY6opsCfQxckDQdtPADOJHMtlUf2"],"references":"Basé sur le BBL fait chez Leroy merlin en décembre 2018. \n\n[https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important]  \n[https://www.weave.works/blog/managing-helm-releases-the-gitops-way]  \n[https://www.weave.works/technologies/gitops-frequently-asked-questions/]  \n","rating":3.6,"loves":3,"hates":0},{"title":"How i met your module","state":"submitted","level":"beginner","abstract":"Dans le monde merveilleux de Golang, une fonctionnalité importante est arrivé. \nNotre Gopher est maintenant capable de se découper en module. \nNous allons explorer sa nouvelle anatomie","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["fjcIJOphAiYCrtQ2x1HaIlA72T53"],"rating":3.5833333333333335,"loves":3,"hates":0},{"title":"Casseur Flutter !","state":"accepted","level":"intermediate","abstract":"Ah les frameworks de dév d'applications mobiles, ça serait une bien longue histoire à vous conter.\nDu natif à l'hybride, en passant par les PWA, sans oublier l'hybride natif interpreté...\nIl existe et eut existé de nombreux frameworks : certains devenus incontournables, d'autres simplement oubliés.\nAucun n'est cependant parfait : coûts, compétences requises, performances, fluidités, etc. toujours une histoire de compromis...\n\nMais tout ça c'est déjà de l'histoire ancienne alors on ne va pas perdre de temps : parlons peu, mais parlons Flutter.\n\nSes promesses : performances et expériences utilisateurs au top tout en ayant des coûts et temps de développement amoindri.\nComment ? Avec une seule base de code, la compilation de binaires natifs multi-plateformes, un rendu OpenGL et d'autres encore ;)\n\nJe vous propose qu'ensemble nous vérifions si ce framework tient bien ses promesses au travers d'un live coding d'une app.\nPromis c'est pas du pipeau ! (#jeux-de-mots-pourri-assumé)","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["mNQ7HNno7qX2c1n3xmUl9P2nstx2"],"rating":3.533333333333333,"loves":5,"hates":0},{"title":"Faites tourner les bouteilles en 3D, le Zenibar passe à WebGL.","state":"submitted","level":"beginner","abstract":"Le ZeniBar, le seul bar où les verres sont virtuels et la bière est réelle !\n\nLe bar, entièrement connecté, connaît désormais très bien ses clients et gère ses stocks grâce au machine learning.\n\nApportons maintenant de l'animation aux clients en leur offrant une application en 3D en full WebGL2 vanilla sur les écrans du bar.\n\nApprenons pas à pas les concepts et le code WebGL, depuis la rasterisation jusqu'aux shaders avancés en passant par les quaternions, les lumières, caméras, ...","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["uGPuOB4Ca4U1yhtGb9DeK3l4tZt1","BCjJ2LsZHzMGuFOw9R8rztzQ5ZG3"],"comments":"Toute fin de journée, stp.","references":"Cette conf a été déroulée à SnowCamp 2019 avec de bons retours.\n\nCe talk est co-construit et co-animé avec Gwennael BUCHET qui justifie de 6 années d'expérience dans le développement 3D (OpenGL + WebGL).\n\n","rating":3.5294117647058822,"loves":5,"hates":0},{"title":"The Hello World API Challenge","state":"submitted","level":"beginner","abstract":"Pour réaliser une API à déployer dans un conteneur, chacun a ses convictions en terme de langage et de framework, chacun est sûr de son choix. Les débats arrivent donc très vite à la foire d'empoigne et la passion prend le dessus : \"Go forever !\", \"Plutôt mourir que faire du Node !\", \"Java est mort !\".\nPour dépassionner les débats et être factuel, j'ai organisé un _Hello World API challenge_ dans mon équipe, chacun était libre de choisir le langage et le framework de son choix et devais fournir une implémentation minimale d'une API (service + controlleur/webservice avec données hardcodée, Dockerfile). Nous avons ensuite comparé les implémentations ...\nDans ce talk, je vous présenterais les différentes implémentations proposée et vous présenterez les conclusions du challenges !","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["c78qkEcCDhYjS3kuIBkLmsDjX5C2"],"rating":3.4444444444444446,"loves":0,"hates":0},{"title":"Arthas - Alibaba Java Diagnostic Tool","state":"submitted","level":"beginner","abstract":"Alibaba est le géant chinois de l'e-commerce, ils viennent de mettre en open-source il y a peu Arthas, un outils de diagnostique de la JVM qu'ils utilisent en production pour trouver et résoudre les problèmes (performance, crash, ...). Dans ce tools-in-action, venez découvrir son fonctionnement via une live-session où nous diagnostiquerons le comportement d'une application Java classique (de type pet-store).","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["c78qkEcCDhYjS3kuIBkLmsDjX5C2"],"comments":"Ce talk va être donné à Devoxx France, le faire lors de la technozaure me permettra de faire une répétition (de plus)","references":"J'ai déjà fait des talks sur les meetups lillois GDG Lille et Chti'JUG:\n\n- Chti'JUG sur le projet API de Kiabi : https://www.meetup.com/fr-FR/ChtiJUG/events/239188501/\n- GGD Lille sur Java 9 : https://www.meetup.com/fr-FR/GDG-Lille/events/244570392/\n- GDG Lille sur mes premier par en DeepLearning : https://www.meetup.com/fr-FR/GDG-Lille/events/247897909/","rating":3.4,"loves":0,"hates":0},{"title":"ReasonML: The basics","state":"submitted","level":"intermediate","abstract":"ReasonML, langage basé sur OCaml, a été créé par Facebook pour le développement de Facebook Messenger par exemple. Il a également été une source d'inspiration très importante pour les développeurs de ReactJS. \n\nAvec cette conférence, principalement basée sur un live coding, je vous présenterai les bases de ce langage. Vous allez me dire WTF ? encore un nouveau langage ? Pour pas vous mentir, je ne sais pas encore si je préconiserai un jour ce langage pour de vrais projets. Mais c'est toujours intéressant de connaitre de nouveaux patterns, de nouvelles syntaxes afin d'améliorer votre propre code. \n\nNous aborderons : Bucklescript, Types, Variant, Record, Pattern Matching, Mutabilité, ...","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["H3QHP1wvJDUG0sW402gh9ktbNx03"],"rating":3.3,"loves":1,"hates":0},{"title":"Polymer OUI ! Mais non ! Mais si ! Mais pas trop","state":"submitted","level":"intermediate","abstract":"LitElement est-il un sous-ensemble de Polymer, ou son future ?\nIl est surtout beaucoup plus facile à prendre en mains, et rapide à mettre en place.\nIl pourrait aujourd'hui devenir la solution  pour les WebComponents de demain.","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["UP0hJkHZeHZhXwrILrKF1P2HeAr2","kGnfoGvvsiZpuBE8UhyBZIQFlKr1"],"rating":3.25,"loves":2,"hates":0},{"title":"ZGC vs Shenandoah le choc des titans (GC)","state":"submitted","level":"intermediate","abstract":"La JVM a récemment vu l'ajouts de deux Garbage Collector concurrent, qui ciblent des pauses ultra basses (quelques ms) pour des heaps  de grandes tailles (jusqu'au To).\nDans ce talk je vais présenter le concept de ces deux GC (colored pointers vs Brook's pointers) et faire une comparaison rapide des promesses qu'ils offrent et des compromis qu'ils ont fait pour y arriver.","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["c78qkEcCDhYjS3kuIBkLmsDjX5C2"],"rating":3.142857142857143,"loves":1,"hates":0},{"title":"Avoir un train à l'heure ... c'est pas facile","state":"submitted","level":"intermediate","abstract":"Tout le monde connaît la ponctualité légendaire de la SNCF. Malheureusement, c'est souvent un ressenti subjectif, et lorsqu'il s'agit de trouver des données chiffrées objectives, on se confronte à la subjectivité de la SNCF (c’est un peu comme le nombre de manifestants selon la police ou les syndicats).\n\nUne base de **Kafka**, un soupçon d’**Elasticsearch**, un zeste de **Kubernetes**, saupoudrer de **Jenkins-X**, voilà notre recette pour concevoir un système de prédiction de retards de trains basé sur les observations des utilisateurs.\n\nVenez déguster le résultat en notre compagnie !","formats":"48d8a462-0a82-5866-a696-8440da49f907","speakers":["uGPuOB4Ca4U1yhtGb9DeK3l4tZt1","fCgh32awnkMbOhjAfk0YHlNGjhI3"],"references":"Cette présentation a déjà été donnée :\n- En interne Zenika un midi (devant 10 personnes)\n- À [Snowcamp 2019](https://snowcamp2019.sched.com/event/b47fe0e40d4713d3b6c883c46dcb0960) (devant 120 personnes).","rating":3.0625,"loves":5,"hates":2},{"title":"Chez tati t'as tout","state":"submitted","level":"beginner","abstract":"Chez tatou t'as lit","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["UP0hJkHZeHZhXwrILrKF1P2HeAr2","kGnfoGvvsiZpuBE8UhyBZIQFlKr1"],"rating":3,"loves":5,"hates":3},{"title":"Git Workflows ","state":"submitted","level":"beginner","abstract":"Vous vous posez  des questions sur la meilleure organisation pour le code source de vos projets ?  cette conférence est faite pour vous. Nous allons découvrir ensemble une sélection de workflows  Git pour gagner en productivité et pleins d'autres surprises.\n\nVenez assister à cette présentation ! vous allez changer vos habitudes pour le meilleur  :)","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["qKEJA6dE4papgitmcyPcfsiZhaH3"],"comments":"Hello les Z","references":"Bon, nous allons rajouter cette section dans le future ou pas","rating":2.7,"loves":1,"hates":0},{"title":"Les  10 raisons pour lesquels je déteste JavaScript","state":"submitted","level":"beginner","abstract":"Loin des présentations traditionnel de type **_\"ce nouveau langage/framework/outils est génial\"_**, je vais vous expliquer en 10 points pourquoi je n'aime pas JavaScript et trouve qu'il devrait rester cantonner à ce pour quoi il a été créer : dynamiser des pages web!\n\n**Disclaimer**: cette présentation sera non-objective, totalement biaisée et _trollesque_!\n\nJ'espère en vous présentant ces travers du langage JavaScript, vous faire réfléchir sur l'utilisation des langages de programmations et ce pour quoi ils ont été créés et leur évolution dans le temps ...","formats":"82af33e8-e296-5772-b2cf-c0536c24cbe6","speakers":["c78qkEcCDhYjS3kuIBkLmsDjX5C2"],"references":"J'ai déjà fait des talks sur les meetups lillois GDG Lille et Chti'JUG:\n\n- Chti'JUG sur le projet API de Kiabi : https://www.meetup.com/fr-FR/ChtiJUG/events/239188501/\n- GGD Lille sur Java 9 : https://www.meetup.com/fr-FR/GDG-Lille/events/244570392/\n- GDG Lille sur mes premier par en DeepLearning : https://www.meetup.com/fr-FR/GDG-Lille/events/247897909/\n\n**Note aux sélectionneurs** : le but de ce talk n'est pas de descendre un langage mais bien de faire réfléchir les auditeurs sur l'utilisation des langages de programmation, et leurs construction. \nJe vais essayer de faire une présentation amusante, sur un ton volontairement provoquant et prenant bien sûr des raccourcis honteux pour présenter les 10 points que j'aime le moins en JavaScript. S'il y a parmi vous des aficionados du langage, ne m'en voulez pas trop ;)","rating":2.642857142857143,"loves":2,"hates":2},{"title":"M","state":"rejected","level":"beginner","abstract":"### [ARCHIVE-iT  - 29 mars 2077]\n\n*bla bla bla bla bla bla.\n\n\n\n","formats":"148f51e1-32d0-556b-bb56-b343cad5ad04","speakers":["JibGFY0ZDfOsBpT7GdONXRkvqLw2"],"rating":2.5,"loves":5,"hates":6}],"speakers":[{"uid":"M7Y4cdPiaXRcWJyJZpClFbIJrtj2","displayName":"Laëtitia Diverchy","photoURL":"https://lh3.googleusercontent.com/-lFazabY8bkY/AAAAAAAAAAI/AAAAAAAAAAc/x6CNRN49OYk/photo.jpg","email":"laetitia.diverchy@zenika.com"},{"uid":"wzqZFxqypoeYqoR1aAh2tVIOgQf2","displayName":"Elya Bernard","bio":"Consultante chez Zenika Lille depuis fin 2017 - après m'être essayée à différents parcours jusqu'à commencer à apprendre dans mon coin l'algorithmique.  \nCela fait 3 ans que je code, et depuis 3 ans je me dis que je n'ai pas fini d'apprendre et de découvrir le monde magique de l'informatique, et ça ça fait plaisir.  \n\n_Je m'essaye aussi à la production musicale en utilisant uniquement des logiciels Linux (ce qui est déjà un challenge en soi)_","company":"Zenika","photoURL":"https://lh3.googleusercontent.com/-J_gUVZL6kjc/AAAAAAAAAAI/AAAAAAAAACY/oPL5YzgFa9k/photo.jpg","twitter":"@lobotomeh","github":"elyaB","city":"Lille, France","language":"Français","email":"elya.bernard@zenika.com","phone":"0673157745"},{"uid":"ycA0PAOpF1dSYTycuqypfD02zBj1","displayName":"Nicolas Lassalle","photoURL":"https://lh4.googleusercontent.com/-aIHvA9okzOg/AAAAAAAAAAI/AAAAAAAAACk/_6a3vODgxC8/photo.jpg","email":"nicolas.lassalle@zenika.com"},{"uid":"6klOX1xduHbBCxddJhe0sBJLZp13","displayName":"Delphin Aubin","bio":"Delphin Aubin\nFan de tout ce qui termine par DD, je développe avec passion depuis plus de 6 ans. Je vois dans la qualité logicielle un business model durable et une opportunité d’exercer mon métier de façon responsable. Comme je ne mange pas équilibré, j’utilise 5 outils au nom de fruit ou légume par jour.","company":"Zenika Lille","photoURL":"https://lh3.googleusercontent.com/-UzixzWYbeqM/AAAAAAAAAAI/AAAAAAAAABc/3c7NRhzQzqk/photo.jpg","twitter":"@delphinaubin","github":"delphinaubin","city":"Tourcoing, France","language":"Français","email":"delphin.aubin@zenika.com","phone":"06 82 73 72 68"},{"uid":"CklO45ZQyZYm9v3cXlBB6CNSUbH2","displayName":"Javier Linan Manzaneda","company":"Zenika","photoURL":"https://lh6.googleusercontent.com/-29sDMYA_-G4/AAAAAAAAAAI/AAAAAAAAAB4/tI9RLSnbeQs/photo.jpg","city":"Lille, France","language":"Javascript","email":"javier.linmanzaneda@zenika.com","phone":"0782879630"},{"uid":"NFro9rDzi4T0XJjwGReHBu70be73","displayName":"Valentin Stern","company":"Zenika","photoURL":"https://lh4.googleusercontent.com/-ZvGNdgkXef4/AAAAAAAAAAI/AAAAAAAAALE/8klR83N2jGI/photo.jpg","github":"Sehsyha","city":"Lille, France","email":"valentin.stern@zenika.com"},{"uid":"pwEPRXEjr9SPbx2M3mFmDTSsVeB2","displayName":"Maxime Louis","photoURL":"https://lh6.googleusercontent.com/-Oex3vWWQcSM/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQN_ewFUuhg1WstsKLXaFiZrMIVPWw/mo/photo.jpg","email":"maxime.louis@zenika.com"},{"uid":"uGPuOB4Ca4U1yhtGb9DeK3l4tZt1","displayName":"Logan HAUSPIE","bio":"Consultant [@ZenikaLille](https://twitter.com/ZenikaLille) orienté vers le développement back-end et l'architecture de solution.  \nAvide d'explorations techniques, c'est un vrai touche à tout qui n’hésite pas à tenter de nouvelles aventures.  \nSpeaker à ses heures autour du Stream Data Processing (SMACK, Apache Beam, Kafka), il aime la bonne bouffe, la bonne bière, les soirées entre amis et le billard.  \nSes sujets actuels gravitent autour de GCP (PubSub, DataFlow, AppEngine, ComputeEngine) ainsi que de GoLang. ","company":"Zenika","photoURL":"https://lh5.googleusercontent.com/-cunK3a7rpBg/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-hT6KHJDVDn6UE8w2tIoxJKajVx8w/mo/photo.jpg","twitter":"@lhauspie","github":"lhauspie","city":"Lille, France","language":"Français","email":"logan.hauspie.pro@gmail.com","phone":"06.21.65.90.14"},{"uid":"kGnfoGvvsiZpuBE8UhyBZIQFlKr1","displayName":"Nathan DAMIE","photoURL":"https://avatars2.githubusercontent.com/u/1478039?v=4","email":"nathan.damie@gmail.com"},{"uid":"et1GIdihpCQC2I0S2HLI51IDy2n1","displayName":"arnaud locquet","bio":"J'ai commencé à développer très jeune : en basic sur un TO7. Depuis 11 ans, j’en ai fait mon travail et je suis maintenant architecte logiciel. Je suis curieux et je m'intéresse à plusieurs domaines : de la VR au cloud, en passant par l'IOT. J'ai aussi un goût prononcé pour l'automatisation.\n\nJ'aime partager mes connaissances et je donne quelques BBL et formations internes sur divers sujets.\n\nA côté de cela, j'ai toujours un projet perso en cours pour découvrir quelques framework/langages et déployer cela en serverless. Je suis un adepte de adventOfCode (développé en rust cette année), j'aime la bière et je jardine.","company":"Zenika","photoURL":"https://lh3.googleusercontent.com/-LqB80RW7C1M/AAAAAAAAAAI/AAAAAAAAEcg/ixsIilR5umQ/photo.jpg","twitter":"@locquetarnaud","github":"alocquet","city":"Lille, France","language":"Java","email":"alocquet@gmail.com"},{"uid":"fCgh32awnkMbOhjAfk0YHlNGjhI3","displayName":"Nicolas Delsaux","bio":"Développeur Java pendant 15 ans, je suis devenu depuis quelques années peut-être un peu plus qu'un vieux développeur : un architecte, un référent technique, peut-être un mentor.\nJ'ai fait du Java dans suffisamment d'environnements différents pour apprendre beaucoup à la fois sur la technique, mais aussi sur le coeur du développement : l'humain.","company":"Zenika","photoURL":"https://avatars2.githubusercontent.com/u/171018?v=4","twitter":"@riduidel","github":"riduidel","city":"Hellemmes","email":"nicolas.delsaux@gmail.com"},{"uid":"H3QHP1wvJDUG0sW402gh9ktbNx03","displayName":"Emmanuel Demey","bio":"Developer Advocate chez Zenika Lille et Google Developer Expert, je suis spécialisé dans AngularJS / Angular / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, Bdx.io, DevFest Nantes, Codeurs en Seine","company":"Zenika","photoURL":"https://lh5.googleusercontent.com/-Ah5tywPfFgc/AAAAAAAAAAI/AAAAAAAADOg/s43SdoYxQwQ/photo.jpg","twitter":"EmmanuelDemey","github":"Gillespie59","city":"Lille","language":"français","email":"emmanuel.demey@zenika.com","phone":"0647474202"},{"uid":"EbyOSxWhIjf809ckqEJS3qFHw4e2","displayName":"Sébastien Velay","company":"Zenika","photoURL":"https://lh6.googleusercontent.com/-ITErH--Jtyk/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQMOsHZPTrVUEk32QVBcdVIhhxQ_Hw/mo/photo.jpg","city":"Lille, France","language":"Français","email":"sebastien.velay@zenika.com","phone":"0766066816"},{"uid":"GY6opsCfQxckDQdtPADOJHMtlUf2","displayName":"Sébastien Nahelou","bio":"Aficionado des containers depuis plus de 4 ans, j'ai fait de Kubernetes mon sujet de prédilection.","company":"Zenika","photoURL":"https://lh6.googleusercontent.com/-6hc2Y6fUJVM/AAAAAAAAAAI/AAAAAAAAAAc/f-xCPMoOsc8/photo.jpg","twitter":"snahelouz","github":"snahelou","city":"Lille","language":"Français","email":"sebastien.nahelou@zenika.com","phone":"06 32 99 07 47"},{"uid":"C9GUCBO8PEbD8KoBCUESnzypO7u2","displayName":"Quentin LEVASLOT","photoURL":"https://lh5.googleusercontent.com/-I7AMDWcmd1U/AAAAAAAAAAI/AAAAAAAAAGM/9nCq3Klx7nk/photo.jpg","email":"quentin.levaslot@zenika.com"},{"uid":"PsCuTjLS9UNf3YrBDBrOc6SiJi13","displayName":"Pierre Malherbe","company":"Zenika","photoURL":"https://avatars2.githubusercontent.com/u/20439202?v=4","email":"pierre.malherbe6@gmail.com"},{"uid":"X7XymhqINGST1YOWpNbq6Rvw4Od2","displayName":"Bertrand Renou","photoURL":"https://lh5.googleusercontent.com/-65MoI2R6TD0/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQPAXG-Oi4EmwEwefi_yfd6gS6bC3Q/mo/photo.jpg","email":"bertrand.renou@zenika.com"},{"uid":"qKEJA6dE4papgitmcyPcfsiZhaH3","displayName":"Moncef Aoudia","bio":"Backend && Mobile  Dev ","company":"Zenika","photoURL":"https://lh6.googleusercontent.com/-odybt9mE36s/AAAAAAAAAAI/AAAAAAAAABA/YXSOS1Z8Ji0/photo.jpg","twitter":"@AoudiaMoncef","github":"sparow199","city":"Lille, France","language":"Kotlin","email":"moncef.aoudia@zenika.com","phone":"0628764859"},{"uid":"E30b8NpGGBhxsy6cTxUs8UiknPj1","displayName":"Ndongo Wade","photoURL":"https://lh4.googleusercontent.com/-dbm_8IoCE3g/AAAAAAAAAAI/AAAAAAAAASg/nzm714rmblQ/photo.jpg","email":"ndongo.wade@zenika.com"},{"uid":"LvVna1f0DXQaMKQMFaxi5ddUvZv2","displayName":"Matthieu Salikhov","photoURL":"https://lh5.googleusercontent.com/-kTspv5jhFew/AAAAAAAAAAI/AAAAAAAAAAA/OCFhxVo1EQo/photo.jpg","email":"matthieu.salikhov@zenika.com"},{"uid":"fjcIJOphAiYCrtQ2x1HaIlA72T53","displayName":"Jeffrey Duroyon","photoURL":"https://lh5.googleusercontent.com/-rddFl1Z1Dig/AAAAAAAAAAI/AAAAAAAAAAo/wZI-_iuTsJk/photo.jpg","email":"jeffrey.duroyon@zenika.com"},{"uid":"mNQ7HNno7qX2c1n3xmUl9P2nstx2","displayName":"Mickaël Boixière","company":"Zenika","photoURL":"https://lh4.googleusercontent.com/-h73_-7z51TU/AAAAAAAAAAI/AAAAAAAAAFU/cmaMWCY_6V8/photo.jpg","city":"Lille, France","email":"mickael.boixiere@zenika.com"},{"uid":"BCjJ2LsZHzMGuFOw9R8rztzQ5ZG3","displayName":"Gwennael Buchet","bio":"Beer Evangelist, Gwennaël est aussi directeur de l'agence de Zenika Lille qu'il a co-fondé en 2014. \n\nPassionné d'algorithmie 3D, d'IoT et d'innovation de la donnée, il a travaillé plus de 6 ans en R&D 3D temps réel avant de rejoindre Capgemini, où il a fondé le pôle innovation de Lille, puis Zenika, initialement en tant que directeur technique avant de prendre l'animation de l'agence en 2017.","company":"Zenika","photoURL":"https://lh4.googleusercontent.com/-Swn3FeJZxsg/AAAAAAAAAAI/AAAAAAAAAoU/3WsfSxGMjHY/photo.jpg","twitter":"@GwennaelBuchet","city":"Lille, France","language":"Fr","email":"gwennael.buchet@gmail.com"},{"uid":"c78qkEcCDhYjS3kuIBkLmsDjX5C2","displayName":"Loïc MATHIEU","bio":"Consultant chez Zenika après 9 ans d'architecture logicielle chez un client final. Développeur Java depuis 14 ans. \nPassionné, technophile, aime apprendre de nouvelles choses et partager ce que j'ai appris.","company":"Zenika","photoURL":"https://lh3.googleusercontent.com/-RuLeNSAnwNs/AAAAAAAAAAI/AAAAAAAAF-Y/LEEahe2FSqU/photo.jpg","twitter":"@loicmathieu","github":"loicmathieu","city":"Lille","language":"Français","email":"loikeseke@gmail.com","phone":"0660553636"},{"uid":"UP0hJkHZeHZhXwrILrKF1P2HeAr2","displayName":"Alban Delcourt","photoURL":"https://lh6.googleusercontent.com/-RwT8drB0Kzo/AAAAAAAAAAI/AAAAAAAAAFk/vUoXAAvwXCQ/photo.jpg","email":"alban.delcourt@zenika.com"},{"uid":"JibGFY0ZDfOsBpT7GdONXRkvqLw2","displayName":"Jérémy Thulliez","photoURL":"https://lh4.googleusercontent.com/-RUN6D5VAXYo/AAAAAAAAAAI/AAAAAAAAABk/YLkQAqidEls/photo.jpg","email":"jeremy.thulliez@zenika.com"}]}
+{
+    "name": "Technozaure lille mars 2019 ",
+    "formats": [
+        {
+            "name": "30 minutes",
+            "description": null,
+            "id": "148f51e1-32d0-556b-bb56-b343cad5ad04"
+        },
+        {
+            "name": "15 minutes",
+            "id": "82af33e8-e296-5772-b2cf-c0536c24cbe6"
+        },
+        {
+            "name": "45 minutes",
+            "id": "48d8a462-0a82-5866-a696-8440da49f907"
+        },
+        {
+            "id": "2ee0a43e-45db-546b-95eb-adf6c3b1b1a5",
+            "name": "60 minutes"
+        }
+    ],
+    "talks": [
+        {
+            "title": " Ne me libère pas, je m'en charge",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "\" Nous ne souhaitons certainement pas être l’égal de l’homme ; nous voulons pouvoir nous définir par nous-mêmes et pour nous-mêmes. \"\n\nLes femmes sont-elles vraiment moins fortes en maths que les hommes ? Les femmes doivent-elles vraiment prouver 2 fois plus que les hommes ce qu'elles avancent ?  Deviens-t-on parano à force de ne pas se faire entendre ?\nEt nous ne sommes pas seules ! Car nous remarquons que ces problèmes s'étendent au dehors du genre de la femme, et du domaine de l'informatique.\n\nNous vous proposons une petite session de réflexion sur la portée de nos paroles, et nous essayerons d'apporter quelques clés pour s'affirmer dans un domaine qui nous plaît.\n\n\n",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "M7Y4cdPiaXRcWJyJZpClFbIJrtj2",
+                "wzqZFxqypoeYqoR1aAh2tVIOgQf2"
+            ],
+            "rating": 4.470588235294118,
+            "loves": 10,
+            "hates": 0
+        },
+        {
+            "title": "k3s, c'est 5 de moins que k8s",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Projet d'incubation par Rancher Labs, **k3s** est une distribution légère de Kubernetes dédiée aux architectures x86, ARM64 and ARMv7.\n\nDistribuée sous la forme d'un binaire unique, k3s est facile d'installation et ne nécessite que 512Mo pour un noeud master et 75Mo de ram pour un noeud d'exécution.\n\nDans ce rapide talk de 15minutes, nous verrons :\n1. comment Rancher Labs a réussi à obtenir ce résultat\n2. quels sont les use-cases de k3s\n3. une mise en pratique",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "ycA0PAOpF1dSYTycuqypfD02zBj1"
+            ],
+            "comments": null,
+            "rating": 4.2,
+            "loves": 6,
+            "hates": 0
+        },
+        {
+            "title": "Comment fonctionne l'event loop de Node.js",
+            "state": "submitted",
+            "level": "intermediate",
+            "abstract": "On nous dit que Node.js est trop bien parce qu'il est \"non-bloquant\".\n\nOn nous dit \"Node.js est mono threadé, enfin pas exactement... \". \n\nDans ce talk, nous prenons le taureau par les cornes et nous demystifions les concepts derrière l'event loop de Node.js.\n\nPromis nous ferons tout pour que ça reste compréhensible !",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "6klOX1xduHbBCxddJhe0sBJLZp13",
+                "CklO45ZQyZYm9v3cXlBB6CNSUbH2"
+            ],
+            "rating": 4.1875,
+            "loves": 6,
+            "hates": 0
+        },
+        {
+            "title": "Architecture hexagonale for dummies",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Qu'est ce que l'architecture hexagonale, a quoi ça sert ? Avantages défauts ? Comment ça fonctionne ?\nDans ce talk vous trouverez toutes les bases sur ce buzz word. De quoi briller en société et peut être (je dis bien peut être) utiliser ce concept chez l'un de vos clients.",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "CklO45ZQyZYm9v3cXlBB6CNSUbH2",
+                "6klOX1xduHbBCxddJhe0sBJLZp13"
+            ],
+            "rating": 4.153846153846154,
+            "loves": 2,
+            "hates": 0
+        },
+        {
+            "title": "Algorithmes génétiques : Création du clavier (presque !) parfait",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Vous avez toujours rêvé d'être efficace avec un ordinateur mais vous ne disposez que d'un seul doigt ?\n\nVotre clavier n'est pas adapté à votre utilisation et vous désirez en changer afin d'optimiser votre rapidité d'écriture ?\n\nNous avons LA solution ! \n\nAvec notre clavier spécifique, vous pourrez enfin profiter de la joie de programmer sans attendre !\nVenez découvrir notre nouveau prototype de clavier monodigital qui va révolutionner la façon de taper des lettres !\n\nPlus sérieusement, nous vous proposons de découvrir la puissance des algorithmes génétiques à travers un cas concret : la génération de layouts de saisie. Venez nombreux !",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "NFro9rDzi4T0XJjwGReHBu70be73",
+                "pwEPRXEjr9SPbx2M3mFmDTSsVeB2"
+            ],
+            "rating": 4.153846153846154,
+            "loves": 5,
+            "hates": 0
+        },
+        {
+            "title": "Le CIA : Le Collectif des Imposteurs Anonymes",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Le **syndrome de l’imposteur**, c’est le fait d’attribuer la réussite d’un accomplissement à autre chose que **ses propres compétences**.  \nEn être atteint peut entraîner toutes sortes d’angoisses, allant de la simple remise en question jusqu'au **repli sur soi**.  \nEn prendre conscience peut permettre de s’en _libérer_ et de ne plus se sentir seul… de **décomplexer** en somme.\n\nLa question à laquelle nous tenterons de répondre durant ce talk est : Pourquoi ?\n\nPourrait-on en faire un atout ?\n\n",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "uGPuOB4Ca4U1yhtGb9DeK3l4tZt1",
+                "wzqZFxqypoeYqoR1aAh2tVIOgQf2"
+            ],
+            "comments": "Nous réalisons de plus en plus que ce syndrome touche énormément de monde dans l’IT.  \nElya Bernard et moi-même sommes atteint de ce syndrome avec des scores respectifs de 78/100 et 80/100 sur l’[échelle de Clance](http://paulineroseclance.com/impostor_phenomenon.html). \nNous pensons qu’il serait utile d’en parler et d’apporter  notre témoignage, ainsi que celui des différentes personnes que nous avons déjà interrogées afin de comprendre qui était touché et de quelle façon.\n",
+            "references": "Talk proposé (mais refusé) à SnowCamp 2019.\n",
+            "rating": 4.142857142857143,
+            "loves": 9,
+            "hates": 0
+        },
+        {
+            "title": "fix(yagni): stop doing useless things",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "- Si tu cherches une conf pour apprendre un nouveau langage --> Va sur openclassroom comme tout le monde\n- Si tu cherches à comprendre HTTP 17.24 --> ça n'existe pas\n- Si tu veux comprendre les monades --> appel nous dès que c'est fait (nous on a lâché l'affaire)\n- Si tu veux vraiment être agile --> Viens, on aime les rêveurs\n- Si tu veux gagner du temps tous les jours --> Ne rate pas cette conf (on a même des bonbons)\n- Si tu ne sais toujours pas si tu dois venir à cette conf --> Viens, au moins on a des bonbons",
+            "speakers": [
+                "6klOX1xduHbBCxddJhe0sBJLZp13",
+                "kGnfoGvvsiZpuBE8UhyBZIQFlKr1"
+            ],
+            "references": null,
+            "rating": 4.133333333333334,
+            "loves": 7,
+            "hates": 0
+        },
+        {
+            "title": "TLS 1.3 arrive!!! Et si on comprenait déjà ce que fait TLS 1.2 ?",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "“Quand on commande sur Internet, il faut que le cadenas soit affiché à côté de l'url…” C'est ce qu'on me disait lorsque je commençais à y faire des achats, il y a \"quelques\" années... #modem56K\n\n\nDepuis, j'ai du mettre en place des échanges TLS, côté client et serveur. Nous étions régulièrement confrontés à des erreurs que nous ne comprenions pas bien (#handskake-failure) jusqu'au jour où j'ai décidé de bien comprendre son fonctionnement.\n\n\nViens (re)découvrir TLS, dans un talk où je vais vulgariser les principes pour que toi aussi, tu sois enfin à l'aise avec.",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "et1GIdihpCQC2I0S2HLI51IDy2n1"
+            ],
+            "references": "j'ai déjà fait un quickie pour le GDG Lille sur un autre sujet : https://www.meetup.com/fr-FR/GDG-Lille/events/247897909/.\nJe fais également des conférences le midi sur divers sujets. Depuis que je suis chez Zenika Lille, j'ai donné un conférence sur le borrow checker de Rust.\n\n\nPourquoi ce talk ?\nJ'ai eu régulièrement à mettre en place des communications passant par TLS. Du point de vue du dév, sa mise en place était toujours un peu obscure. Je suis intervenu sur beaucoup de projets où les équipes ne comprenaient pas bien : \n\n* quelle est la différence entre un certificat autosigné et un certificat signé par une autorité reconnue\n* à quoi correspond un truststore\n* à quoi sert une authentification mutuelle\n* à quoi sert un keystore\n* ...\n\nLe problème est que la compréhension de son fonctionnement demande des bases de cryptographie (chiffrement (a)symétrique, hashage, ...).\n\nJe propose ce talk pour essayer de vulgariser le sujet et le rendre suffisamment accessible pour que les personnes présentes puissent comprendre ce qui se passe derrière HTTPS et derrière une authentification mutuelle TLS. Mon objectif est qu'ils sachent ce qu'ils font quand ils touchent à un truststore/keystore, ou quand ils génèrent des certificats autosignés.\n\nPlan :\n\n* chiffrement vs ~~cryptage~~ vs hashage\n* clé symétrique : AES\n* clé asymétrique : RSA / ECDSA  : chiffrement, signature\n* Certificat X509\n* TLS 1.2 : algo\n* TLS 1.2 : authentification mutuelle",
+            "rating": 4.111111111111111,
+            "loves": 3,
+            "hates": 0
+        },
+        {
+            "title": "Le petit Nicolas fait du Web",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Quelle joie de faire du Web : écrire du HTML, jouer avec les CSS Grid, chaîner les opérateurs sur les Observables, ou encore configurer les outils nous permettant de développer des produits de qualité pour nos utilisateurs.\nUne joie pour tout le monde ? Bien sûr ! En fait pas si sûr que ça. Prenons par exemple un développeur expérimenté, que nous nommerons Nicolas (le nom a été choisi au hasard)..\n\nIl a l'habitude de la programmation, plutôt orientée Java. Sa dernière et seule expérience d'interfaces graphiques étaient développées en Swing ou en Scriptaculous. A l'époque, c'était grandement suffisant pour notre protagoniste.\nJusqu'au jour où son client lui a demandé de développer une interface VueJS. Il perd ses moyens, il doute, il se remet en question... devant l'ecosystème Web de 2019. Le gap était trop important pour lui. Et si on y allait étape par étape ?\n\nDurant cette conférence, nous aborderons toutes les pratiques pour appliquer les nouvelles APIs, syntaxes, bonne pratiques à une application développé par Nicolas.\n\n\n",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "fCgh32awnkMbOhjAfk0YHlNGjhI3",
+                "H3QHP1wvJDUG0sW402gh9ktbNx03"
+            ],
+            "rating": 4.086956521739131,
+            "loves": 7,
+            "hates": 0
+        },
+        {
+            "title": "Que se passe t-il lorsque je vais sur Google.fr ?",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Le fait d’ouvrir son navigateur préféré, taper l’adresse d’un site web est devenu l’une des tâches les plus banales de notre génération. En quelques secondes seulement, nous sommes sur notre réseau social préféré, à commenter les dernières photos de notre meilleure amie ou encore jouer au dernier jeu addictif. Mais savons nous toute la mécanique derrière ces quelques secondes nécessaires à afficher cette page ?\n\nPendant cette conference, nous allons revenir sur toutes les entrailles du World Wide Web. Au programme nous aborderons les protocoles HTTP et DNS, les différents caches ou encore du rendering au sein de votre navigateur… \n\n",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "H3QHP1wvJDUG0sW402gh9ktbNx03",
+                "6klOX1xduHbBCxddJhe0sBJLZp13"
+            ],
+            "references": "EN 2018, l’ensemble des frameworks web se challenger mutuellement afin d’avoir un bundle final le plus petit possible. Le but de cette présentation est de vous prouver que quand nous parlons de performance, cela ne s’arrête pas à la concatenation/minification de vos ressources statiques. Plusieurs optimisations peuvent être mises en place afin de charger votre site le plus rapidement possible et rendre vos utilisateurs heureux. \n\nCette conférence sera donnée avec Delphin Aubin de Zenika Lille",
+            "rating": 4.066666666666666,
+            "loves": 4,
+            "hates": 0
+        },
+        {
+            "title": "Votre stack micro service, je vous la sers bloquante ou réactive ?",
+            "state": "submitted",
+            "level": "intermediate",
+            "abstract": "Bravo, vous avez décidez de casser le monolithe qu'était votre site web en choisissant de partir sur des micros services. Mais vous vous posez des questions :\n- comment ne pas ralentir mon site quand un service tiers est long à répondre ?\n- comment dealer avec des services qui sont parfois indisponibles ?\n- comment répondre à un grand nombre d'appel très rapidement sans ralentir mon application ?\n\nJe vous propose de répondre à ces questions (et bien d'autres), grâce à la programmation réactive, et avec les technos que vous avez l'habitude d'utiliser. A travers cette conférence, nous verrons ce qu'est la programmation réactive, comment passer d'une application Spring Web à une application Spring Webflux facilement, faire des appels en réactifs à votre base de données et streamer les réponses de vos API.\n\n\nPrésentation et live coding sont au programme.",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "EbyOSxWhIjf809ckqEJS3qFHw4e2"
+            ],
+            "comments": "Entre 30 et 45 min mais pas sur encore :)",
+            "rating": 4.055555555555555,
+            "loves": 4,
+            "hates": 0
+        },
+        {
+            "title": "Cobol l'avenir du futur !",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "*\"Un peuple qui oublie son passé se condamne à le revivre.\"*  **Winston Churchill**\n\n\n\nLe Cobol, cette technologie qui doit \"disparaître dans quelques année\" depuis plus de  20 ans... Tout le monde dit que \"c'est nul\" et pourtant des nouveaux projets démarrent en Cobol tous les jours.\n\n\nAprès tout, peut être qu'en observant sans apriori on peut apprendre des choses.\n\n\n\n\n\n\n\n\n",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "6klOX1xduHbBCxddJhe0sBJLZp13"
+            ],
+            "rating": 4,
+            "loves": 3,
+            "hates": 0
+        },
+        {
+            "title": "L'histoire des modes en informatique",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "En informatique, tout est dans tout.\nEt pourtant, depuis vingt ans, il y a eu bien des modes à tous les niveaux\n\n* Des paradigmes sont devenus à la mode (ou ont perdu les faveurs du public)\n* Des architectures (physiques ou logicielles) ont été le nec plus ultra avant de sombrer\n* Des outils considérés comme indispensables sont devenus grossièrement inutiles\n* Des méthodes ont simplement disparu\n\nDans cette présentation, j'essayerai de cerner à travers un voyage dans les vingt dernières années certains des moteurs de ces modes, qui ne sont pas forcément ceux qu'on croit.\n\n**ATTENTION** cette présentation contient des opinions personnelles, qui seront présentées comme telles et séparées des éléments factuels.",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "fCgh32awnkMbOhjAfk0YHlNGjhI3"
+            ],
+            "rating": 3.933333333333333,
+            "loves": 3,
+            "hates": 0
+        },
+        {
+            "title": "Kubernetes and Vault integration for dummies",
+            "state": "submitted",
+            "level": "intermediate",
+            "abstract": "La gestion des secrets, c'est toujours la chose qu'on fait en dernier... Du coup, généralement, ce n'est pas glorieux... \nEn 15 minutes, vous allez voir comment intégrer Vault avec Kubernetes afin de pouvoir centraliser vos secrets, et les rendre facilement accessible dans vos applications quelque soit le langage\n\n",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "GY6opsCfQxckDQdtPADOJHMtlUf2"
+            ],
+            "references": "https://github.com/nirmata/kube-vault-client\n",
+            "rating": 3.9166666666666665,
+            "loves": 3,
+            "hates": 0
+        },
+        {
+            "title": "Des test end to end moins douloureux avec Cypress.io",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Les test e2e ont toujours été pénible à écrire, avec des problèmes d'asynchronismes, de lenteurs, de verbosité... Je vous propose de vous réconcilier avec les tests end to end via une présentation de l'outil Cypress.io\n\nArrivé sur le marché l'année dernière, cette solution suscite un certain engouement, et permet de réaliser vos tests dans un environnement beaucoup plus dev friendly. ",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "C9GUCBO8PEbD8KoBCUESnzypO7u2"
+            ],
+            "rating": 3.909090909090909,
+            "loves": 1,
+            "hates": 0
+        },
+        {
+            "title": "Avoir une maison connectée libre ! Introduction à Open Hab",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "## Introduction à Open Hab\n\nDans le monde merveilleux de la domotique, nombreuses solutions propriétaires et protocoles nous brident pour une gestion complète de notre maison connectée. Néanmoins il existe quelques solutions afin de remédier à ce problème.\n\nAujourd'hui nous parlerons de Open Hab 2, une solution ouverte est indépendante au cœur de votre maison connectée.\n\n\n### Plan :\n\n* Introduction à Open Hab dans le monde de la domotique\n* Découverte des possibilités d'Open Hab\n* Installation et configuration sur une Raspberry\n* Démo : Connections d'une lampe avec un assistant Google\n",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "PsCuTjLS9UNf3YrBDBrOc6SiJi13"
+            ],
+            "comments": "Besoin de 5-10 minutes d'installation ",
+            "references": "https://www.openhab.org/",
+            "rating": 3.9,
+            "loves": 2,
+            "hates": 0
+        },
+        {
+            "title": "Zenika, Capgemini sommes nous si différent ?",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "No spoiler here !\n\nMais peut être qu'on verra si y a des points communs ou des points de divergences.\nEt peut être qu'on décidera ensemble pour répondre à cette question",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "X7XymhqINGST1YOWpNbq6Rvw4Od2"
+            ],
+            "rating": 3.8947368421052633,
+            "loves": 7,
+            "hates": 1
+        },
+        {
+            "title": "What's new on the Web platform ?",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Nous sommes tous d'accord que nous avons atteint une phase beaucoup plus calme concernant les frameworks JavaScript. VueJS, ReactJS et Angular sont bien installés et restent les solutions plus utilisées. Mais cela ne veut pas dire, que la plateforme Web n'évolue pas. Bien au contraire. \n\nPrenons le temps d'aborder les nouveautés des standards JavaScript, CSS ou encore HTML. Lors de l'écriture de cet abstract, je pourrais parler de Intersection Observer, Priority Hints, constructable stylesheet, Trusted Web activities, HTTP3, ... . Mais je suis sûr que d'autres standards seront sortis juste avec la conférence...",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "H3QHP1wvJDUG0sW402gh9ktbNx03"
+            ],
+            "rating": 3.857142857142857,
+            "loves": 5,
+            "hates": 0
+        },
+        {
+            "title": "Kotlin Discovery",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Envie d'un voyage découvert gratuit sur l'ile de Kotlin ? vous êtes au bon endroit.  Nous allons découvrir l'ensemble de l'écosystème , comment coder en Kotlin style et pleins d'autre informations utiles  pour se lancer dans l'aventure Kotlin.\n\nVenez assister à cette présentation ! vous allez découvrir la cool attitude de Kotlin  :)",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "qKEJA6dE4papgitmcyPcfsiZhaH3"
+            ],
+            "comments": "Hello les Z !",
+            "references": "Cette présentation a déjà été donnée :\n\n-  PremedIT (Running Care)",
+            "rating": 3.8181818181818183,
+            "loves": 3,
+            "hates": 0
+        },
+        {
+            "title": "ES 2019, quoi de neuf ?",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Un petit talk pour balayer les nouvelles fonctionnalités de ECMASCRIPT2019.\n\n*Avec une description comme ça, si vous ne votez pas pour ce talk je ne comprend pas !*\n\n*:-P*\n",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "E30b8NpGGBhxsy6cTxUs8UiknPj1",
+                "6klOX1xduHbBCxddJhe0sBJLZp13"
+            ],
+            "rating": 3.75,
+            "loves": 5,
+            "hates": 0
+        },
+        {
+            "title": "Comment développez votre prochaine application Web avec Firebase",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "L'offre Firebase proposée par Google est une galaxie. Et malheureusement nous n'aurons pas le temps de tout aborder. Nous allons principalement aborder les produits permettant de stocker des données (FireStore), de gérer l'authentification, d'héberger vos SPA utilisant votre framework JavaScript de prédilection ou encore les Cloud Functions.\n\nSi vous avez toujours eu envie de développer une nouvelle application Web, mais sans trop se soucier de la partie back ou encore de la base de données, Firebase peut être la réponse à vos besoins.\n\nÀ la fin de ce talk, vous saurez comment développer, déployer et utiliser votre application grâce à l'infrastructure de Google.",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "uGPuOB4Ca4U1yhtGb9DeK3l4tZt1",
+                "H3QHP1wvJDUG0sW402gh9ktbNx03"
+            ],
+            "references": "C'est la version Talk du codelab que nous avons donné à :\n- NightClazz Zenika Montréal\n- NightClass Zenika Lille\n- DevFest Paris 2019",
+            "rating": 3.727272727272727,
+            "loves": 5,
+            "hates": 0
+        },
+        {
+            "title": "Tavernier une bière !",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Tarvern est une infrastructure avancée de test d'API, pour HTTP ou d'autres protocoles,  basée sur pytest en python.\n\nAprès une petite introduction sur Tarvern, nous allons illustrer son utilisation en testant une petite API qui liste les bières en stocke dans un bar.",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "M7Y4cdPiaXRcWJyJZpClFbIJrtj2"
+            ],
+            "rating": 3.6666666666666665,
+            "loves": 3,
+            "hates": 0
+        },
+        {
+            "title": "Gestion de projet, l'imposture intellectuelle",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Dans la pyramide de Maslow version IT, le CP (Et assimilé) est tout en haut. Ca tombe bien, dans le schéma hiérarchique aussi, et dans la grille des salaires idems. Pourtant dans l'éco-système il semblerait que les développeurs qui font des logiciels soient plus utiles...\n\nA quoi sert un chef de projet ? Comment survivent-ils? Pouvez vous faire un projet sans CP? Combien faut-il de CP pour changer une ampoule? Quelles évolutions pour le futur? La réponse à toutes ces questions et bien plus encore sera disponible dans un PWP (Et un Excel!) à l'issue de cette présentation.",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "LvVna1f0DXQaMKQMFaxi5ddUvZv2"
+            ],
+            "references": "Je sais pas exactement ce qu'il faut mettre ici :D\nTalk proposé en interne à Zenika, présenté en midi-conf à Décathlon.\nSpeaker (Sur d'autres sujets) à AT Aix en Provence (16), AT Lille (16/17/18), PMI Lille (18), Paris Agile by Night (16), orga Meet-Up Nord agile, Orga Nord Agile.",
+            "rating": 3.6470588235294117,
+            "loves": 5,
+            "hates": 0
+        },
+        {
+            "title": "Méthode de Monte-Carlo, prise de décision et biais du survivant ",
+            "state": "submitted",
+            "level": "intermediate",
+            "abstract": "\"Les 5 habitudes des leaders qui réussissent, la 4ème va vous surprendre.\"\nQu'est ce que la méthode de Monte-Carlo? Comment l'utiliser pour prendre des décisions? Qu'est ce qu'une bonne ou une mauvaise décision et pourquoi on ne peut pas les juger à postériori? Pourquoi le mec qui gagne à la fin n'est pas forcément le meilleur, mais probablement juste le plus chanceux.\nUn talk qui aborde des modèles mathématiques, les biais d'apprentissages, la chance et les gens idiots.",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "LvVna1f0DXQaMKQMFaxi5ddUvZv2"
+            ],
+            "comments": "Conference hall c'est quand même tellement, tellement torché avec le cul en vrai.",
+            "references": "J'ai conseillé Jeff Bezos pour lancer Amazon, l'Iphone 1 était mon idée et je suis derrière le cabinet d'avocat qui soutient Uber sur l'équité au sein de ses bureaux. Autant dire que mes credentials sont bulletproofs.",
+            "rating": 3.642857142857143,
+            "loves": 6,
+            "hates": 1
+        },
+        {
+            "title": "Comment bien choisir son langage lors d'une transformation numérique ? ",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Lors d'une transformation, le choix d'un langage adéquat permet de la faciliter.  Nous allons voir ensemble, les piéges à éviter et comment choisir un ou plusieurs langage.",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "fjcIJOphAiYCrtQ2x1HaIlA72T53"
+            ],
+            "rating": 3.6153846153846154,
+            "loves": 2,
+            "hates": 0
+        },
+        {
+            "title": "GitOps avec WeaveFlux",
+            "state": "submitted",
+            "abstract": "Dans le monde, il y a 10 catégories de personnes :  ceux qui font du push pipeline, et ceux qui font du pull pipeline. \n\nLe but de ce quickies est de vous présenter au travers d'une démo une approche différente de votre continuous deployment sur Kubernetes via l'outils Weave Flux proposé par [https://www.weave.works]\n",
+            "speakers": [
+                "GY6opsCfQxckDQdtPADOJHMtlUf2"
+            ],
+            "references": "Basé sur le BBL fait chez Leroy merlin en décembre 2018. \n\n[https://www.weave.works/blog/why-is-a-pull-vs-a-push-pipeline-important]  \n[https://www.weave.works/blog/managing-helm-releases-the-gitops-way]  \n[https://www.weave.works/technologies/gitops-frequently-asked-questions/]  \n",
+            "rating": 3.6,
+            "loves": 3,
+            "hates": 0
+        },
+        {
+            "title": "How i met your module",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Dans le monde merveilleux de Golang, une fonctionnalité importante est arrivé. \nNotre Gopher est maintenant capable de se découper en module. \nNous allons explorer sa nouvelle anatomie",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "fjcIJOphAiYCrtQ2x1HaIlA72T53"
+            ],
+            "rating": 3.5833333333333335,
+            "loves": 3,
+            "hates": 0
+        },
+        {
+            "title": "Casseur Flutter !",
+            "state": "accepted",
+            "level": "intermediate",
+            "abstract": "Ah les frameworks de dév d'applications mobiles, ça serait une bien longue histoire à vous conter.\nDu natif à l'hybride, en passant par les PWA, sans oublier l'hybride natif interpreté...\nIl existe et eut existé de nombreux frameworks : certains devenus incontournables, d'autres simplement oubliés.\nAucun n'est cependant parfait : coûts, compétences requises, performances, fluidités, etc. toujours une histoire de compromis...\n\nMais tout ça c'est déjà de l'histoire ancienne alors on ne va pas perdre de temps : parlons peu, mais parlons Flutter.\n\nSes promesses : performances et expériences utilisateurs au top tout en ayant des coûts et temps de développement amoindri.\nComment ? Avec une seule base de code, la compilation de binaires natifs multi-plateformes, un rendu OpenGL et d'autres encore ;)\n\nJe vous propose qu'ensemble nous vérifions si ce framework tient bien ses promesses au travers d'un live coding d'une app.\nPromis c'est pas du pipeau ! (#jeux-de-mots-pourri-assumé)",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "mNQ7HNno7qX2c1n3xmUl9P2nstx2"
+            ],
+            "rating": 3.533333333333333,
+            "loves": 5,
+            "hates": 0
+        },
+        {
+            "title": "Faites tourner les bouteilles en 3D, le Zenibar passe à WebGL.",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Le ZeniBar, le seul bar où les verres sont virtuels et la bière est réelle !\n\nLe bar, entièrement connecté, connaît désormais très bien ses clients et gère ses stocks grâce au machine learning.\n\nApportons maintenant de l'animation aux clients en leur offrant une application en 3D en full WebGL2 vanilla sur les écrans du bar.\n\nApprenons pas à pas les concepts et le code WebGL, depuis la rasterisation jusqu'aux shaders avancés en passant par les quaternions, les lumières, caméras, ...",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "uGPuOB4Ca4U1yhtGb9DeK3l4tZt1",
+                "BCjJ2LsZHzMGuFOw9R8rztzQ5ZG3"
+            ],
+            "comments": "Toute fin de journée, stp.",
+            "references": "Cette conf a été déroulée à SnowCamp 2019 avec de bons retours.\n\nCe talk est co-construit et co-animé avec Gwennael BUCHET qui justifie de 6 années d'expérience dans le développement 3D (OpenGL + WebGL).\n\n",
+            "rating": 3.5294117647058822,
+            "loves": 5,
+            "hates": 0
+        },
+        {
+            "title": "The Hello World API Challenge",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Pour réaliser une API à déployer dans un conteneur, chacun a ses convictions en terme de langage et de framework, chacun est sûr de son choix. Les débats arrivent donc très vite à la foire d'empoigne et la passion prend le dessus : \"Go forever !\", \"Plutôt mourir que faire du Node !\", \"Java est mort !\".\nPour dépassionner les débats et être factuel, j'ai organisé un _Hello World API challenge_ dans mon équipe, chacun était libre de choisir le langage et le framework de son choix et devais fournir une implémentation minimale d'une API (service + controlleur/webservice avec données hardcodée, Dockerfile). Nous avons ensuite comparé les implémentations ...\nDans ce talk, je vous présenterais les différentes implémentations proposée et vous présenterez les conclusions du challenges !",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "c78qkEcCDhYjS3kuIBkLmsDjX5C2"
+            ],
+            "rating": 3.4444444444444446,
+            "loves": 0,
+            "hates": 0
+        },
+        {
+            "title": "Arthas - Alibaba Java Diagnostic Tool",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Alibaba est le géant chinois de l'e-commerce, ils viennent de mettre en open-source il y a peu Arthas, un outils de diagnostique de la JVM qu'ils utilisent en production pour trouver et résoudre les problèmes (performance, crash, ...). Dans ce tools-in-action, venez découvrir son fonctionnement via une live-session où nous diagnostiquerons le comportement d'une application Java classique (de type pet-store).",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "c78qkEcCDhYjS3kuIBkLmsDjX5C2"
+            ],
+            "comments": "Ce talk va être donné à Devoxx France, le faire lors de la technozaure me permettra de faire une répétition (de plus)",
+            "references": "J'ai déjà fait des talks sur les meetups lillois GDG Lille et Chti'JUG:\n\n- Chti'JUG sur le projet API de Kiabi : https://www.meetup.com/fr-FR/ChtiJUG/events/239188501/\n- GGD Lille sur Java 9 : https://www.meetup.com/fr-FR/GDG-Lille/events/244570392/\n- GDG Lille sur mes premier par en DeepLearning : https://www.meetup.com/fr-FR/GDG-Lille/events/247897909/",
+            "rating": 3.4,
+            "loves": 0,
+            "hates": 0
+        },
+        {
+            "title": "ReasonML: The basics",
+            "state": "submitted",
+            "level": "intermediate",
+            "abstract": "ReasonML, langage basé sur OCaml, a été créé par Facebook pour le développement de Facebook Messenger par exemple. Il a également été une source d'inspiration très importante pour les développeurs de ReactJS. \n\nAvec cette conférence, principalement basée sur un live coding, je vous présenterai les bases de ce langage. Vous allez me dire WTF ? encore un nouveau langage ? Pour pas vous mentir, je ne sais pas encore si je préconiserai un jour ce langage pour de vrais projets. Mais c'est toujours intéressant de connaitre de nouveaux patterns, de nouvelles syntaxes afin d'améliorer votre propre code. \n\nNous aborderons : Bucklescript, Types, Variant, Record, Pattern Matching, Mutabilité, ...",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "H3QHP1wvJDUG0sW402gh9ktbNx03"
+            ],
+            "rating": 3.3,
+            "loves": 1,
+            "hates": 0
+        },
+        {
+            "title": "Polymer OUI ! Mais non ! Mais si ! Mais pas trop",
+            "state": "submitted",
+            "level": "intermediate",
+            "abstract": "LitElement est-il un sous-ensemble de Polymer, ou son future ?\nIl est surtout beaucoup plus facile à prendre en mains, et rapide à mettre en place.\nIl pourrait aujourd'hui devenir la solution  pour les WebComponents de demain.",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "UP0hJkHZeHZhXwrILrKF1P2HeAr2",
+                "kGnfoGvvsiZpuBE8UhyBZIQFlKr1"
+            ],
+            "rating": 3.25,
+            "loves": 2,
+            "hates": 0
+        },
+        {
+            "title": "ZGC vs Shenandoah le choc des titans (GC)",
+            "state": "submitted",
+            "level": "intermediate",
+            "abstract": "La JVM a récemment vu l'ajouts de deux Garbage Collector concurrent, qui ciblent des pauses ultra basses (quelques ms) pour des heaps  de grandes tailles (jusqu'au To).\nDans ce talk je vais présenter le concept de ces deux GC (colored pointers vs Brook's pointers) et faire une comparaison rapide des promesses qu'ils offrent et des compromis qu'ils ont fait pour y arriver.",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "c78qkEcCDhYjS3kuIBkLmsDjX5C2"
+            ],
+            "rating": 3.142857142857143,
+            "loves": 1,
+            "hates": 0
+        },
+        {
+            "title": "Avoir un train à l'heure ... c'est pas facile",
+            "state": "submitted",
+            "level": "intermediate",
+            "abstract": "Tout le monde connaît la ponctualité légendaire de la SNCF. Malheureusement, c'est souvent un ressenti subjectif, et lorsqu'il s'agit de trouver des données chiffrées objectives, on se confronte à la subjectivité de la SNCF (c’est un peu comme le nombre de manifestants selon la police ou les syndicats).\n\nUne base de **Kafka**, un soupçon d’**Elasticsearch**, un zeste de **Kubernetes**, saupoudrer de **Jenkins-X**, voilà notre recette pour concevoir un système de prédiction de retards de trains basé sur les observations des utilisateurs.\n\nVenez déguster le résultat en notre compagnie !",
+            "formats": "48d8a462-0a82-5866-a696-8440da49f907",
+            "speakers": [
+                "uGPuOB4Ca4U1yhtGb9DeK3l4tZt1",
+                "fCgh32awnkMbOhjAfk0YHlNGjhI3"
+            ],
+            "references": "Cette présentation a déjà été donnée :\n- En interne Zenika un midi (devant 10 personnes)\n- À [Snowcamp 2019](https://snowcamp2019.sched.com/event/b47fe0e40d4713d3b6c883c46dcb0960) (devant 120 personnes).",
+            "rating": 3.0625,
+            "loves": 5,
+            "hates": 2
+        },
+        {
+            "title": "Chez tati t'as tout",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Chez tatou t'as lit",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "UP0hJkHZeHZhXwrILrKF1P2HeAr2",
+                "kGnfoGvvsiZpuBE8UhyBZIQFlKr1"
+            ],
+            "rating": 3,
+            "loves": 5,
+            "hates": 3
+        },
+        {
+            "title": "Git Workflows ",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Vous vous posez  des questions sur la meilleure organisation pour le code source de vos projets ?  cette conférence est faite pour vous. Nous allons découvrir ensemble une sélection de workflows  Git pour gagner en productivité et pleins d'autres surprises.\n\nVenez assister à cette présentation ! vous allez changer vos habitudes pour le meilleur  :)",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "qKEJA6dE4papgitmcyPcfsiZhaH3"
+            ],
+            "comments": "Hello les Z",
+            "references": "Bon, nous allons rajouter cette section dans le future ou pas",
+            "rating": 2.7,
+            "loves": 1,
+            "hates": 0
+        },
+        {
+            "title": "Les  10 raisons pour lesquels je déteste JavaScript",
+            "state": "submitted",
+            "level": "beginner",
+            "abstract": "Loin des présentations traditionnel de type **_\"ce nouveau langage/framework/outils est génial\"_**, je vais vous expliquer en 10 points pourquoi je n'aime pas JavaScript et trouve qu'il devrait rester cantonner à ce pour quoi il a été créer : dynamiser des pages web!\n\n**Disclaimer**: cette présentation sera non-objective, totalement biaisée et _trollesque_!\n\nJ'espère en vous présentant ces travers du langage JavaScript, vous faire réfléchir sur l'utilisation des langages de programmations et ce pour quoi ils ont été créés et leur évolution dans le temps ...",
+            "formats": "82af33e8-e296-5772-b2cf-c0536c24cbe6",
+            "speakers": [
+                "c78qkEcCDhYjS3kuIBkLmsDjX5C2"
+            ],
+            "references": "J'ai déjà fait des talks sur les meetups lillois GDG Lille et Chti'JUG:\n\n- Chti'JUG sur le projet API de Kiabi : https://www.meetup.com/fr-FR/ChtiJUG/events/239188501/\n- GGD Lille sur Java 9 : https://www.meetup.com/fr-FR/GDG-Lille/events/244570392/\n- GDG Lille sur mes premier par en DeepLearning : https://www.meetup.com/fr-FR/GDG-Lille/events/247897909/\n\n**Note aux sélectionneurs** : le but de ce talk n'est pas de descendre un langage mais bien de faire réfléchir les auditeurs sur l'utilisation des langages de programmation, et leurs construction. \nJe vais essayer de faire une présentation amusante, sur un ton volontairement provoquant et prenant bien sûr des raccourcis honteux pour présenter les 10 points que j'aime le moins en JavaScript. S'il y a parmi vous des aficionados du langage, ne m'en voulez pas trop ;)",
+            "rating": 2.642857142857143,
+            "loves": 2,
+            "hates": 2
+        },
+        {
+            "title": "M",
+            "state": "rejected",
+            "level": "beginner",
+            "abstract": "### [ARCHIVE-iT  - 29 mars 2077]\n\n*bla bla bla bla bla bla.\n\n\n\n",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04",
+            "speakers": [
+                "JibGFY0ZDfOsBpT7GdONXRkvqLw2"
+            ],
+            "rating": 2.5,
+            "loves": 5,
+            "hates": 6
+        }
+    ],
+    "speakers": [
+        {
+            "uid": "M7Y4cdPiaXRcWJyJZpClFbIJrtj2",
+            "displayName": "Laëtitia Diverchy",
+            "photoURL": "https://lh3.googleusercontent.com/-lFazabY8bkY/AAAAAAAAAAI/AAAAAAAAAAc/x6CNRN49OYk/photo.jpg",
+            "email": "laetitia.diverchy@zenika.com"
+        },
+        {
+            "uid": "wzqZFxqypoeYqoR1aAh2tVIOgQf2",
+            "displayName": "Elya Bernard",
+            "bio": "Consultante chez Zenika Lille depuis fin 2017 - après m'être essayée à différents parcours jusqu'à commencer à apprendre dans mon coin l'algorithmique.  \nCela fait 3 ans que je code, et depuis 3 ans je me dis que je n'ai pas fini d'apprendre et de découvrir le monde magique de l'informatique, et ça ça fait plaisir.  \n\n_Je m'essaye aussi à la production musicale en utilisant uniquement des logiciels Linux (ce qui est déjà un challenge en soi)_",
+            "company": "Zenika",
+            "photoURL": "https://lh3.googleusercontent.com/-J_gUVZL6kjc/AAAAAAAAAAI/AAAAAAAAACY/oPL5YzgFa9k/photo.jpg",
+            "twitter": "@lobotomeh",
+            "github": "elyaB",
+            "city": "Lille, France",
+            "language": "Français",
+            "email": "elya.bernard@zenika.com",
+            "phone": "0673157745"
+        },
+        {
+            "uid": "ycA0PAOpF1dSYTycuqypfD02zBj1",
+            "displayName": "Nicolas Lassalle",
+            "photoURL": "https://lh4.googleusercontent.com/-aIHvA9okzOg/AAAAAAAAAAI/AAAAAAAAACk/_6a3vODgxC8/photo.jpg",
+            "email": "nicolas.lassalle@zenika.com"
+        },
+        {
+            "uid": "6klOX1xduHbBCxddJhe0sBJLZp13",
+            "displayName": "Delphin Aubin",
+            "bio": "Delphin Aubin\nFan de tout ce qui termine par DD, je développe avec passion depuis plus de 6 ans. Je vois dans la qualité logicielle un business model durable et une opportunité d’exercer mon métier de façon responsable. Comme je ne mange pas équilibré, j’utilise 5 outils au nom de fruit ou légume par jour.",
+            "company": "Zenika Lille",
+            "photoURL": "https://lh3.googleusercontent.com/-UzixzWYbeqM/AAAAAAAAAAI/AAAAAAAAABc/3c7NRhzQzqk/photo.jpg",
+            "twitter": "@delphinaubin",
+            "github": "delphinaubin",
+            "city": "Tourcoing, France",
+            "language": "Français",
+            "email": "delphin.aubin@zenika.com",
+            "phone": "06 82 73 72 68"
+        },
+        {
+            "uid": "CklO45ZQyZYm9v3cXlBB6CNSUbH2",
+            "displayName": "Javier Linan Manzaneda",
+            "company": "Zenika",
+            "photoURL": "https://lh6.googleusercontent.com/-29sDMYA_-G4/AAAAAAAAAAI/AAAAAAAAAB4/tI9RLSnbeQs/photo.jpg",
+            "city": "Lille, France",
+            "language": "Javascript",
+            "email": "javier.linmanzaneda@zenika.com",
+            "phone": "0782879630"
+        },
+        {
+            "uid": "NFro9rDzi4T0XJjwGReHBu70be73",
+            "displayName": "Valentin Stern",
+            "company": "Zenika",
+            "photoURL": "https://lh4.googleusercontent.com/-ZvGNdgkXef4/AAAAAAAAAAI/AAAAAAAAALE/8klR83N2jGI/photo.jpg",
+            "github": "Sehsyha",
+            "city": "Lille, France",
+            "email": "valentin.stern@zenika.com"
+        },
+        {
+            "uid": "pwEPRXEjr9SPbx2M3mFmDTSsVeB2",
+            "displayName": "Maxime Louis",
+            "photoURL": "https://lh6.googleusercontent.com/-Oex3vWWQcSM/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQN_ewFUuhg1WstsKLXaFiZrMIVPWw/mo/photo.jpg",
+            "email": "maxime.louis@zenika.com"
+        },
+        {
+            "uid": "uGPuOB4Ca4U1yhtGb9DeK3l4tZt1",
+            "displayName": "Logan HAUSPIE",
+            "bio": "Consultant [@ZenikaLille](https://twitter.com/ZenikaLille) orienté vers le développement back-end et l'architecture de solution.  \nAvide d'explorations techniques, c'est un vrai touche à tout qui n’hésite pas à tenter de nouvelles aventures.  \nSpeaker à ses heures autour du Stream Data Processing (SMACK, Apache Beam, Kafka), il aime la bonne bouffe, la bonne bière, les soirées entre amis et le billard.  \nSes sujets actuels gravitent autour de GCP (PubSub, DataFlow, AppEngine, ComputeEngine) ainsi que de GoLang. ",
+            "company": "Zenika",
+            "photoURL": "https://lh5.googleusercontent.com/-cunK3a7rpBg/AAAAAAAAAAI/AAAAAAAAAAA/AGDgw-hT6KHJDVDn6UE8w2tIoxJKajVx8w/mo/photo.jpg",
+            "twitter": "@lhauspie",
+            "github": "lhauspie",
+            "city": "Lille, France",
+            "language": "Français",
+            "email": "logan.hauspie.pro@gmail.com",
+            "phone": "06.21.65.90.14"
+        },
+        {
+            "uid": "kGnfoGvvsiZpuBE8UhyBZIQFlKr1",
+            "displayName": "Nathan DAMIE",
+            "photoURL": "https://avatars2.githubusercontent.com/u/1478039?v=4",
+            "email": "nathan.damie@gmail.com"
+        },
+        {
+            "uid": "et1GIdihpCQC2I0S2HLI51IDy2n1",
+            "displayName": "arnaud locquet",
+            "bio": "J'ai commencé à développer très jeune : en basic sur un TO7. Depuis 11 ans, j’en ai fait mon travail et je suis maintenant architecte logiciel. Je suis curieux et je m'intéresse à plusieurs domaines : de la VR au cloud, en passant par l'IOT. J'ai aussi un goût prononcé pour l'automatisation.\n\nJ'aime partager mes connaissances et je donne quelques BBL et formations internes sur divers sujets.\n\nA côté de cela, j'ai toujours un projet perso en cours pour découvrir quelques framework/langages et déployer cela en serverless. Je suis un adepte de adventOfCode (développé en rust cette année), j'aime la bière et je jardine.",
+            "company": "Zenika",
+            "photoURL": "https://lh3.googleusercontent.com/-LqB80RW7C1M/AAAAAAAAAAI/AAAAAAAAEcg/ixsIilR5umQ/photo.jpg",
+            "twitter": "@locquetarnaud",
+            "github": "alocquet",
+            "city": "Lille, France",
+            "language": "Java",
+            "email": "alocquet@gmail.com"
+        },
+        {
+            "uid": "fCgh32awnkMbOhjAfk0YHlNGjhI3",
+            "displayName": "Nicolas Delsaux",
+            "bio": "Développeur Java pendant 15 ans, je suis devenu depuis quelques années peut-être un peu plus qu'un vieux développeur : un architecte, un référent technique, peut-être un mentor.\nJ'ai fait du Java dans suffisamment d'environnements différents pour apprendre beaucoup à la fois sur la technique, mais aussi sur le coeur du développement : l'humain.",
+            "company": "Zenika",
+            "photoURL": "https://avatars2.githubusercontent.com/u/171018?v=4",
+            "twitter": "@riduidel",
+            "github": "riduidel",
+            "city": "Hellemmes",
+            "email": "nicolas.delsaux@gmail.com"
+        },
+        {
+            "uid": "H3QHP1wvJDUG0sW402gh9ktbNx03",
+            "displayName": "Emmanuel Demey",
+            "bio": "Developer Advocate chez Zenika Lille et Google Developer Expert, je suis spécialisé dans AngularJS / Angular / TypeScript et l'Accessibilité Web. Speaker à ses heures perdues. Aime également les bières (et oui quand on vient de Lille c'est normal...), le Jazz et la Domotique. Plusieurs expériences en tant que conférencier, notamment depuis septembre 2015 autour du sujet Angular2. - ESLint au Jug Summer Camp et ChtiJS - Angular 2 : ChtiJUG, LyonJS, GDG Paris, GDG Nantes, Meetup AngularJS Grenoble, Devoxx, RivieraDev, Bdx.io, DevFest Nantes, Codeurs en Seine",
+            "company": "Zenika",
+            "photoURL": "https://lh5.googleusercontent.com/-Ah5tywPfFgc/AAAAAAAAAAI/AAAAAAAADOg/s43SdoYxQwQ/photo.jpg",
+            "twitter": "EmmanuelDemey",
+            "github": "Gillespie59",
+            "city": "Lille",
+            "language": "français",
+            "email": "emmanuel.demey@zenika.com",
+            "phone": "0647474202"
+        },
+        {
+            "uid": "EbyOSxWhIjf809ckqEJS3qFHw4e2",
+            "displayName": "Sébastien Velay",
+            "company": "Zenika",
+            "photoURL": "https://lh6.googleusercontent.com/-ITErH--Jtyk/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQMOsHZPTrVUEk32QVBcdVIhhxQ_Hw/mo/photo.jpg",
+            "city": "Lille, France",
+            "language": "Français",
+            "email": "sebastien.velay@zenika.com",
+            "phone": "0766066816"
+        },
+        {
+            "uid": "GY6opsCfQxckDQdtPADOJHMtlUf2",
+            "displayName": "Sébastien Nahelou",
+            "bio": "Aficionado des containers depuis plus de 4 ans, j'ai fait de Kubernetes mon sujet de prédilection.",
+            "company": "Zenika",
+            "photoURL": "https://lh6.googleusercontent.com/-6hc2Y6fUJVM/AAAAAAAAAAI/AAAAAAAAAAc/f-xCPMoOsc8/photo.jpg",
+            "twitter": "snahelouz",
+            "github": "snahelou",
+            "city": "Lille",
+            "language": "Français",
+            "email": "sebastien.nahelou@zenika.com",
+            "phone": "06 32 99 07 47"
+        },
+        {
+            "uid": "C9GUCBO8PEbD8KoBCUESnzypO7u2",
+            "displayName": "Quentin LEVASLOT",
+            "photoURL": "https://lh5.googleusercontent.com/-I7AMDWcmd1U/AAAAAAAAAAI/AAAAAAAAAGM/9nCq3Klx7nk/photo.jpg",
+            "email": "quentin.levaslot@zenika.com"
+        },
+        {
+            "uid": "PsCuTjLS9UNf3YrBDBrOc6SiJi13",
+            "displayName": "Pierre Malherbe",
+            "company": "Zenika",
+            "photoURL": "https://avatars2.githubusercontent.com/u/20439202?v=4",
+            "email": "pierre.malherbe6@gmail.com"
+        },
+        {
+            "uid": "X7XymhqINGST1YOWpNbq6Rvw4Od2",
+            "displayName": "Bertrand Renou",
+            "photoURL": "https://lh5.googleusercontent.com/-65MoI2R6TD0/AAAAAAAAAAI/AAAAAAAAAAA/ACevoQPAXG-Oi4EmwEwefi_yfd6gS6bC3Q/mo/photo.jpg",
+            "email": "bertrand.renou@zenika.com"
+        },
+        {
+            "uid": "qKEJA6dE4papgitmcyPcfsiZhaH3",
+            "displayName": "Moncef Aoudia",
+            "bio": "Backend && Mobile  Dev ",
+            "company": "Zenika",
+            "photoURL": "https://lh6.googleusercontent.com/-odybt9mE36s/AAAAAAAAAAI/AAAAAAAAABA/YXSOS1Z8Ji0/photo.jpg",
+            "twitter": "@AoudiaMoncef",
+            "github": "sparow199",
+            "city": "Lille, France",
+            "language": "Kotlin",
+            "email": "moncef.aoudia@zenika.com",
+            "phone": "0628764859"
+        },
+        {
+            "uid": "E30b8NpGGBhxsy6cTxUs8UiknPj1",
+            "displayName": "Ndongo Wade",
+            "photoURL": "https://lh4.googleusercontent.com/-dbm_8IoCE3g/AAAAAAAAAAI/AAAAAAAAASg/nzm714rmblQ/photo.jpg",
+            "email": "ndongo.wade@zenika.com"
+        },
+        {
+            "uid": "LvVna1f0DXQaMKQMFaxi5ddUvZv2",
+            "displayName": "Matthieu Salikhov",
+            "photoURL": "https://lh5.googleusercontent.com/-kTspv5jhFew/AAAAAAAAAAI/AAAAAAAAAAA/OCFhxVo1EQo/photo.jpg",
+            "email": "matthieu.salikhov@zenika.com"
+        },
+        {
+            "uid": "fjcIJOphAiYCrtQ2x1HaIlA72T53",
+            "displayName": "Jeffrey Duroyon",
+            "photoURL": "https://lh5.googleusercontent.com/-rddFl1Z1Dig/AAAAAAAAAAI/AAAAAAAAAAo/wZI-_iuTsJk/photo.jpg",
+            "email": "jeffrey.duroyon@zenika.com"
+        },
+        {
+            "uid": "mNQ7HNno7qX2c1n3xmUl9P2nstx2",
+            "displayName": "Mickaël Boixière",
+            "company": "Zenika",
+            "photoURL": "https://lh4.googleusercontent.com/-h73_-7z51TU/AAAAAAAAAAI/AAAAAAAAAFU/cmaMWCY_6V8/photo.jpg",
+            "city": "Lille, France",
+            "email": "mickael.boixiere@zenika.com"
+        },
+        {
+            "uid": "BCjJ2LsZHzMGuFOw9R8rztzQ5ZG3",
+            "displayName": "Gwennael Buchet",
+            "bio": "Beer Evangelist, Gwennaël est aussi directeur de l'agence de Zenika Lille qu'il a co-fondé en 2014. \n\nPassionné d'algorithmie 3D, d'IoT et d'innovation de la donnée, il a travaillé plus de 6 ans en R&D 3D temps réel avant de rejoindre Capgemini, où il a fondé le pôle innovation de Lille, puis Zenika, initialement en tant que directeur technique avant de prendre l'animation de l'agence en 2017.",
+            "company": "Zenika",
+            "photoURL": "https://lh4.googleusercontent.com/-Swn3FeJZxsg/AAAAAAAAAAI/AAAAAAAAAoU/3WsfSxGMjHY/photo.jpg",
+            "twitter": "@GwennaelBuchet",
+            "city": "Lille, France",
+            "language": "Fr",
+            "email": "gwennael.buchet@gmail.com"
+        },
+        {
+            "uid": "c78qkEcCDhYjS3kuIBkLmsDjX5C2",
+            "displayName": "Loïc MATHIEU",
+            "bio": "Consultant chez Zenika après 9 ans d'architecture logicielle chez un client final. Développeur Java depuis 14 ans. \nPassionné, technophile, aime apprendre de nouvelles choses et partager ce que j'ai appris.",
+            "company": "Zenika",
+            "photoURL": "https://lh3.googleusercontent.com/-RuLeNSAnwNs/AAAAAAAAAAI/AAAAAAAAF-Y/LEEahe2FSqU/photo.jpg",
+            "twitter": "@loicmathieu",
+            "github": "loicmathieu",
+            "city": "Lille",
+            "language": "Français",
+            "email": "loikeseke@gmail.com",
+            "phone": "0660553636"
+        },
+        {
+            "uid": "UP0hJkHZeHZhXwrILrKF1P2HeAr2",
+            "displayName": "Alban Delcourt",
+            "photoURL": "https://lh6.googleusercontent.com/-RwT8drB0Kzo/AAAAAAAAAAI/AAAAAAAAAFk/vUoXAAvwXCQ/photo.jpg",
+            "email": "alban.delcourt@zenika.com"
+        },
+        {
+            "uid": "JibGFY0ZDfOsBpT7GdONXRkvqLw2",
+            "displayName": "Jérémy Thulliez",
+            "photoURL": "https://lh4.googleusercontent.com/-RUN6D5VAXYo/AAAAAAAAAAI/AAAAAAAAABk/YLkQAqidEls/photo.jpg",
+            "email": "jeremy.thulliez@zenika.com"
+        }
+    ]
+}
