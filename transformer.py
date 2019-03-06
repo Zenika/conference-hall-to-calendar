@@ -95,16 +95,23 @@ def process_conference(conference, config):
     logger.info("All time slots are full, conference schedule is ready to be improved by hand at %s" % calendar['summary'])
 
 def create_events_in_period(calendar, period, purgeable_talks, config, formats_map, speakers_map):
+    break_duration = None
+    if config['break']:
+        break_duration = timedelta(seconds=timeparse(config['break']))
+    else:
+        break_duration = timedelta(seconds=0)
     conference_end = parse_date(period['end'])
     # create a fake event to have start time correctly set
     previous_event = {
-        'start': {'dateTime': period['start']}, 
-        'end': {'dateTime': period['start']}, 
+        'start': {'dateTime': print_date(parse_date(period['start'])-break_duration) }, 
+        'end': {'dateTime': print_date(parse_date(period['start'])-break_duration) }, 
     }
     while purgeable_talks:
-        t = purgeable_talks.pop(0)
+        t = purgeable_talks[0]
         improve_talk(t, config, formats_map, speakers_map)
         start_time = parse_date(previous_event['end']['dateTime'])
+        if break_duration:
+            start_time = start_time + break_duration
         delta = t['timedelta']
         end_time = start_time + delta
         t['dates'] = {
@@ -121,6 +128,7 @@ def create_events_in_period(calendar, period, purgeable_talks, config, formats_m
                 logger.debug("conference period %s is full!" % period)
                 return
         next_event = create_event_for(t, calendar, config, previous_event)
+        purgeable_talks.pop(0)
         previous_event = next_event
         logger.info("added event %s"%next_event['summary'])
 
@@ -132,8 +140,10 @@ def improve_talk(talk, config, formats, speakers):
     talk['timedelta'] = formats[talk['formats']]
     full_speakers = []
     for s in talk['speakers']:
-        full_speakers.append(speakers[s])
-    talk['speakers'] = full_speakers
+        if isinstance(s, str):
+            full_speakers.append(speakers[s])
+    if len(full_speakers)>0:
+        talk['speakers'] = full_speakers
 
 def improve_speakers(speakers):
     returned = {}

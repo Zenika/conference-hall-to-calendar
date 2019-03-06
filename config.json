@@ -18,10 +18,18 @@
             "strict": true
         }
     ],
+    "break.doc": "Duration of break between two talks",
+    "break": "5 minutes",
     "overrides.doc": "Elements here allow talks which miss some informations to have these informations injected. Each element in this map links talk title (as given in conference-hall) to elements we want to inject.",
     "overrides": {
         "fix(yagni): stop doing useless things": {
             "formats.doc": "As an example, we set here the format to be 30 minutes (as it is not present in talk)",
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"
+        },
+        "Votre stack micro service, je vous la sers bloquante ou réactive ?": {
+            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"
+        },
+        "Kubernetes and Vault integration for dummies": {
             "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"
         }
     }
