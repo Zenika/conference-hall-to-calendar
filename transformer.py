@@ -7,6 +7,7 @@ import iso8601
 import rfc3339
 import logging
 from pytimeparse.timeparse import timeparse
+from functools import reduce
 
 from datetime import timedelta
 from operator import itemgetter
@@ -26,9 +27,9 @@ APPLICATION_NAME = 'Conference-Hall Google Agenda exporter'
 
 SERVICE = None
 
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s :: %(levelname)s :: %(message)s')
+logger = logging.getLogger("conference-hall-to-calendar")
+logger.setLevel(logging.INFO)
+
 stream_handler = logging.StreamHandler()
 stream_handler.setLevel(logging.INFO)
 logger.addHandler(stream_handler)
@@ -70,7 +71,7 @@ def remove_previous_events(calendar, config):
     logger.info("should remove %d events" % len(previous))
     for event in previous:
         service.events().delete(calendarId=calendar['id'], eventId=event['id']).execute()
-        logger.info("removed %s" % previous)
+        logger.debug("removed %s" % previous)
 
 def process_conference(conference, config):
     """Process conference file to generate the Google Agenda and the needed entries
@@ -127,10 +128,12 @@ def create_events_in_period(calendar, period, purgeable_talks, config, formats_m
             if t['dates']['start']>conference_end:
                 logger.debug("conference period %s is full!" % period)
                 return
-        next_event = create_event_for(t, calendar, config, previous_event)
+        next_event = create_event_for(t, calendar, config, previous_event, period)
         purgeable_talks.pop(0)
         previous_event = next_event
-        logger.info("added event %s"%next_event['summary'])
+        # added event triggers a log usable to build full calendar
+        speakers = reduce(lambda x, y: "%s %s"%(x, y), map(lambda s: s['displayName'], t['speakers']))
+        logger.info("%s (%s)"%(next_event['summary'], speakers))
 
 def improve_talk(talk, config, formats, speakers):
     if talk['title'] in config['overrides']:
@@ -157,7 +160,7 @@ def improve_formats(formats):
         returned[f['id']]=timedelta(seconds=timeparse(f["name"]))
     return returned
 
-def create_event_for(talk, calendar, config, previous_event):
+def create_event_for(talk, calendar, config, previous_event, period):
     """
     Creates an event for the given talk
     
@@ -167,15 +170,19 @@ def create_event_for(talk, calendar, config, previous_event):
     :param calendar: the calendar object, as obtained from Google Agenda
     :param config: the transform configuration
     :param previous_event: the immediatly previous event, after which the talk will be scheduled
+    :param period: the period in which we want to create the event.
     :return: the newly created event object, as returned from Google Calendar
     """
-    logger.info("adding an event for %s" % talk['title'])
+    logger.debug("adding an event for %s" % talk['title'])
     service = get_calendar_service()
 
+    summary = talk['title']
+    if 'prefix' in period:
+        summary = f"{period['prefix']} {summary}"
     event = {
-        'summary': talk['title'],
+        'summary': summary,
         'location': config['location'],
-        'description': talk['abstract'],
+        'description': create_event_description(talk, config),
         'start': {
             'dateTime': print_date(talk['dates']['start']),
             'timeZone': config['timezone'],
@@ -188,6 +195,19 @@ def create_event_for(talk, calendar, config, previous_event):
 
     event = service.events().insert(calendarId=calendar['id'], body=event).execute()
     return event
+
+def create_event_description(talk, config):
+    """
+    Creates event description from talk elements and config parameters
+    """
+    returned = ""
+    for s in talk['speakers']:
+        returned += s['displayName']
+        if 'twitter' in s:
+            returned += ' (@'+s['twitter']+')'
+        returned += '\n'
+    returned += '\n'
+    returned += talk['abstract']
 
 def get_calendar_service():
     """
