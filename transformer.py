@@ -84,13 +84,14 @@ def process_conference(conference, config):
     # First, clear all events at conference dates
     remove_previous_events(calendar, config)
     # And now, starting at start time, and until end time is elapsed, fill schedule with talks
-    talks = sorted(conference['talks'], key=itemgetter('rating'), reverse=True)
     formats_map = improve_formats(conference['formats'])
     speakers_map = improve_speakers(conference['speakers'])
 
+    talks = list(map(lambda t: improve_talk(t, config, formats_map, speakers_map), conference['talks']))
+
     period_list = config['dates']
     purgeable_talks = []
-    purgeable_talks.extend(talks)
+    purgeable_talks = sorted(talks, key=itemgetter('rating'), reverse=True)
     for period in period_list:
         create_events_in_period(calendar, period, purgeable_talks, config, formats_map, speakers_map)
     logger.info("All time slots are full, conference schedule is ready to be improved by hand at %s" % calendar['summary'])
@@ -109,7 +110,6 @@ def create_events_in_period(calendar, period, purgeable_talks, config, formats_m
     }
     while purgeable_talks:
         t = purgeable_talks[0]
-        improve_talk(t, config, formats_map, speakers_map)
         start_time = parse_date(previous_event['end']['dateTime'])
         if break_duration:
             start_time = start_time + break_duration
@@ -136,17 +136,25 @@ def create_events_in_period(calendar, period, purgeable_talks, config, formats_m
         logger.info("%s (%s)"%(next_event['summary'], speakers))
 
 def improve_talk(talk, config, formats, speakers):
-    if talk['title'] in config['overrides']:
-        override = config['overrides'][talk['title']]
-        for key, value in override.items():
-            talk[key] = value
-    talk['timedelta'] = formats[talk['formats']]
-    full_speakers = []
-    for s in talk['speakers']:
-        if isinstance(s, str):
-            full_speakers.append(speakers[s])
-    if len(full_speakers)>0:
-        talk['speakers'] = full_speakers
+    try:
+        if talk['title'] in config['overrides']:
+            overwritten = []
+            override = config['overrides'][talk['title']]
+            for key, value in override.items():
+                overwritten.append(key)
+                talk[key] = value
+            logger.info("In \"%s\", the fields %s were overwritten"%(talk['title'], overwritten))
+        talk['timedelta'] = formats[talk['formats']]
+        full_speakers = []
+        for s in talk['speakers']:
+            if isinstance(s, str):
+                full_speakers.append(speakers[s])
+        if len(full_speakers)>0:
+            talk['speakers'] = full_speakers
+    except Exception as e:
+        logger.error("Unable to improve talk \"%s\" due to %s", (talk['title'], e))
+#        raise e
+    return talk
 
 def improve_speakers(speakers):
     returned = {}
@@ -208,6 +216,7 @@ def create_event_description(talk, config):
         returned += '\n'
     returned += '\n'
     returned += talk['abstract']
+    return returned
 
 def get_calendar_service():
     """
