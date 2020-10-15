@@ -74,7 +74,8 @@ def remove_previous_events(calendar, config):
         logger.debug("removed %s" % previous)
 
 def process_conference(conference, config):
-    """Process conference file to generate the Google Agenda and the needed entries
+    """
+    Process conference file to generate the Google Agenda and the needed entries
     """
     conference_name = conference['name']
     calendar = get_or_create_calendar(conference_name, config)
@@ -91,7 +92,8 @@ def process_conference(conference, config):
 
     period_list = config['dates']
     purgeable_talks = []
-    purgeable_talks = sorted(talks, key=itemgetter('rating'), reverse=True)
+    # Sort talks and set the ones with no rating in last position
+    purgeable_talks = sorted(talks, key=lambda talk: talk['rating'] or 0, reverse=True)
     for period in period_list:
         create_events_in_period(calendar, period, purgeable_talks, config, formats_map, speakers_map)
     logger.info("All time slots are full, conference schedule is ready to be improved by hand at %s" % calendar['summary'])
