@@ -23,11 +23,17 @@ Then `pip install -r requirements.txt`
 
 And you're ready to go !
 
+### Running the script
+
+To run the script, you need to have an existing Google Agenda `credentials.json`.
+To obtain it, follow this documentation.
+
 Change the `config.json` file according to your needs (it should be documented enough for you to understand)
 
 ## Running the tests
 
 There are no automated tests, sorry
+
 ## Deployment
 
 There is no deployment needed, just run this script from your machine
