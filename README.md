@@ -23,11 +23,21 @@ Then `pip install -r requirements.txt`
 
 And you're ready to go !
 
-Change the `config.json` file according to your needs (it should be documented enough for you to understand)
+### Running the script
+
+To run the script, you need to have an existing Google Agenda `credentials.json`.
+To obtain it, you'll have to create a google api account, add the Google Agenda API, then download the `credentials.json` file.
+See [Google API Authentication](https://flaviocopes.com/google-api-authentication/) as an example documentation.
+
+Copy the `config-example.json` file and change it according to your needs (it should be documented enough for you to understand).
+Typically, you should have to change the used `dates` which contain the time slots for conferences.
+
+Now you can run the script with `python transformer.py`!
 
 ## Running the tests
 
 There are no automated tests, sorry
+
 ## Deployment
 
 There is no deployment needed, just run this script from your machine
