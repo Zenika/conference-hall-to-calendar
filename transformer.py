@@ -151,6 +151,7 @@ def improve_talk(talk, config, formats, speakers):
                 full_speakers.append(speakers[s])
         if len(full_speakers)>0:
             talk['speakers'] = full_speakers
+        talk['title'] = "%s (%s)" % (talk['title'], str(talk['timedelta']))
     except Exception as e:
         logger.error("Unable to improve talk \"%s\" due to %s", (talk['title'], e))
 #        raise e
