@@ -11,19 +11,48 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Install Python 3 and pip
+To run the script (python or docker), you need to have an existing Google Agenda `credentials.json`.
+To obtain it, you'll have to create a google api account, add the Google Agenda API, then download the `credentials.json` file.
+See one of these links as an example documentation:
 
-Generate a Google Agenda `credentials.json` file (see in [Python Quickstart](https://developers.google.com/calendar/quickstart/python))
+- [Python Quickstart](https://developers.google.com/calendar/quickstart/python)
+- [Google API Authentication](https://flaviocopes.com/google-api-authentication/),
 
-### Installing
+Copy the `config-example.json` file to `config.json` and change it according to your needs (it should be documented enough for you to understand).
+Typically, you should have to change the used `dates` which contain the time slots for conferences.
 
-Checkout this project
+### Run with Docker
 
-Then `pip install -r requirements.txt`
+Install Docker for your environment, then build the image with:
+
+```
+docker build . -t conference-hall-to-calendar
+```
+
+Finally, run the docker image by using the following command depending on your OS:
+
+On Mac/Linux:
+```sh
+docker run -v /absolute/path/to/conf/folder:/conf conference-hall-to-calendar
+```
+
+On Windows:
+```bash
+docker run -v C:/absolute/path/to/conf/folder:/conf conference-hall-to-calendar
+```
+
+> Note: This command require to have `credentials.json` already created in your project!
+
+### Run with python
+#### Installing
+
+- Install Python 3 and pip
+- Checkout this project
+- Then `pip install -r requirements.txt`
 
 And you're ready to go !
 
-### Running the script
+#### Running the script
 
 To run the script, you need to have an existing Google Agenda `credentials.json`.
 To obtain it, you'll have to create a google api account, add the Google Agenda API, then download the `credentials.json` file.
