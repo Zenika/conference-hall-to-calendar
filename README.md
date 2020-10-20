@@ -54,7 +54,7 @@ I'm not aware of Python versionning :-(
 
 * **Nicolas Delsaux** - *Initial work* - [Riduidel](https://github.com/Riduidel)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Zenika/conference-hall-to-calendar/graphs/contributors) who participated in this project.
 
 ## License
 
