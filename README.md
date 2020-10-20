@@ -48,7 +48,7 @@ Just submit pull request, and if it is good, it will go !
 
 ## Versioning
 
-I'm not aware of Python versionning :-(
+I'm not aware of Python versioning :-(
 
 ## Authors
 
