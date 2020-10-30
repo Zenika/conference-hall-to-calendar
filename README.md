@@ -27,20 +27,20 @@ Install Docker for your environment, then run the docker image by using the foll
 
 On Mac/Linux:
 ```sh
-docker run -v /absolute/path/to/conf/folder:/conf conference-hall-to-calendar:latest
+docker run -v /absolute/path/to/conf/folder:/conf riduidel/conference-hall-to-calendar:latest
 ```
 And to use current directory
 ```bash
-docker run -v ${pwd}:/conf conference-hall-to-calendar:latest
+docker run -v ${pwd}:/conf riduidel/conference-hall-to-calendar:latest
 ```
 
 On Windows:
 ```bash
-docker run -v C:/absolute/path/to/conf/folder:/conf conference-hall-to-calendar:latest
+docker run -v C:/absolute/path/to/conf/folder:/conf riduidel/conference-hall-to-calendar:latest
 ```
 And to use current directory
 ```bash
-docker run -v %cd%:/conf conference-hall-to-calendar:latest
+docker run -v %cd%:/conf riduidel/conference-hall-to-calendar:latest
 ```
 
 > Note: This command require to have `credentials.json` already created in your project!
@@ -75,11 +75,11 @@ There are no automated tests, sorry
 
 This is quite Docker textbook example:
 
-First, build and tag the image: `docker build . -t conference-hall-to-calendar:latest`
+First, build and tag the image: `docker build . -t riduidel/conference-hall-to-calendar:latest`
 
 Login: `docker login`
 
-And push the image `docker push conference-hall-to-calendar:latest`
+And push the image `docker push riduidel/conference-hall-to-calendar:latest`
 
 ## Contributing
 
