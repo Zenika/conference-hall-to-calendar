@@ -23,22 +23,24 @@ Typically, you should have to change the used `dates` which contain the time slo
 
 ### Run with Docker
 
-Install Docker for your environment, then build the image with:
-
-```
-docker build . -t conference-hall-to-calendar
-```
-
-Finally, run the docker image by using the following command depending on your OS:
+Install Docker for your environment, then run the docker image by using the following command depending on your OS:
 
 On Mac/Linux:
 ```sh
-docker run -v /absolute/path/to/conf/folder:/conf conference-hall-to-calendar
+docker run -v /absolute/path/to/conf/folder:/conf conference-hall-to-calendar:latest
+```
+And to use current directory
+```bash
+docker run -v ${pwd}:/conf conference-hall-to-calendar:latest
 ```
 
 On Windows:
 ```bash
-docker run -v C:/absolute/path/to/conf/folder:/conf conference-hall-to-calendar
+docker run -v C:/absolute/path/to/conf/folder:/conf conference-hall-to-calendar:latest
+```
+And to use current directory
+```bash
+docker run -v %cd%:/conf conference-hall-to-calendar:latest
 ```
 
 > Note: This command require to have `credentials.json` already created in your project!
@@ -69,7 +71,15 @@ There are no automated tests, sorry
 
 ## Deployment
 
-There is no deployment needed, just run this script from your machine
+### Deployment of Docker imag on Docker Hub
+
+This is quite Docker textbook example:
+
+First, build and tag the image: `docker build . -t conference-hall-to-calendar:latest`
+
+Login: `docker login`
+
+And push the image `docker push conference-hall-to-calendar:latest`
 
 ## Contributing
 

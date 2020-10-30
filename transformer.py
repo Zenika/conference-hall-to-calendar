@@ -19,6 +19,10 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 
+import socket
+timeout_in_sec = 60*3 # 3 minutes timeout limit
+socket.setdefaulttimeout(timeout_in_sec)
+
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = [
     'https://www.googleapis.com/auth/calendar' # Full calendar access is required to create the calendar from conference name
