@@ -1,3 +1,6 @@
+# IDE
+.idea
+.vscode
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -104,3 +107,4 @@ venv.bak/
 .mypy_cache/
 credentials.json
 token.pickle
+config.json
