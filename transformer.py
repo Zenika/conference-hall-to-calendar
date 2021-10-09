@@ -89,7 +89,7 @@ def process_conference(conference, config):
     # First, clear all events at conference dates
     remove_previous_events(calendar, config)
     # And now, starting at start time, and until end time is elapsed, fill schedule with talks
-    formats_map = improve_formats(conference['formats'])
+    formats_map = improve_formats(conference['formats'], config['formats'])
     speakers_map = improve_speakers(conference['speakers'])
 
     talks = list(map(lambda t: improve_talk(t, config, formats_map, speakers_map), conference['talks']))
@@ -169,10 +169,29 @@ def improve_speakers(speakers):
         returned[s['uid']]=s
     return returned
 
-def improve_formats(formats):
+def improve_formats(formats, formats_config):
     returned = {}
     for f in formats:
-        returned[f['id']]=timedelta(seconds=timeparse(f["name"]))
+        duration = timeparse(f["name"])
+        if duration:
+            returned[f['id']]=timedelta(seconds=duration)
+        elif formats_config:
+            # We couldn't parse the name as a duration. Maybe the config overrides include formats,
+            # in which case we can use that format name as a duration instead
+            # First, locate the good element
+            for config in formats_config:
+                if config['id']==f['id']:
+                    duration = None
+                    if config['duration']:
+                        duration = timeparse(config['duration'])
+                    if duration:
+                        returned[f['id']]=timedelta(seconds=duration)
+                    else:
+                        raise Exception("Config override %s doesn't contain a \"duration\" field we cold parse as a time", config['id'])
+            if not returned[f['id']]:
+                raise Exception("config.json doesn't contain any config for format %s. (see example)", f)
+        else:
+            raise Exception("We couldn't parse duration of format %s. Please define an override in config.json (see example)", f)
     return returned
 
 def create_event_for(talk, calendar, config, previous_event, period):
