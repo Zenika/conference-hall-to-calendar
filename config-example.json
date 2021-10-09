@@ -1,35 +1,41 @@
 {
     "timezone.doc": "As Calendar requires timezones, we have to provide them. So set here the timezone of your event",
     "timezone": "Europe/Paris",
-    "location.doc": "conference-hall contains this field, but it is missing from eport, so you have to duplicate it. There is an issue (https://github.com/bpetetot/conference-hall/issues/499) to include that field in export. Once solved, we will have to change development.",
+    "location.doc": "conference-hall contains this field, but it is missing from export, so you have to duplicate it. There is an issue (https://github.com/bpetetot/conference-hall/issues/499) to include that field in export. Once solved, we will have to change development.",
     "location": "Zenika Lille, 19 Avenue Saint-Maur, 59110 La Madeleine, France",
     "dates.doc": "These dates are in fact time periods during which we have to schedule talks. They are theorically subsets of periods given in conference-hall. Each period will be organized the same way.",
     "dates": [
         {
             "start.doc": "start of each period is mandatory",
-            "start": "2019-03-29T09:30:00+01:00",
+            "start": "2021-11-10T09:00:00+01:00",
             "end.doc": "end of each period is mandatory",
-            "end": "2019-03-29T10:40:00+01:00",
+            "end": "2021-11-10T10:25:00+01:00",
             "strict": true
         },
         {
-            "start": "2019-03-29T10:55:00+01:00",
-            "end": "2019-03-29T12:30:00+01:00"
-        },
-        {
-            "start": "2019-03-29T13:45:00+01:00",
-            "end": "2019-03-29T15:45:00+01:00",
+            "start.doc": "start of each period is mandatory",
+            "start": "2021-11-10T10:40:00+01:00",
+            "end.doc": "end of each period is mandatory",
+            "end": "2021-11-10T12:40:00+01:00",
             "strict": true
         },
         {
-            "start": "2019-03-29T16:10:00+01:00",
-            "end": "2019-03-29T18:00:00+01:00",
-            "strict.doc": "strictness is an optional field that, when true, forbids any kind of talk to continue after the end of the given period. It is typically used for the last day of conference evening.",
+            "start.doc": "start of each period is mandatory",
+            "start": "2021-11-10T14:00:00+01:00",
+            "end.doc": "end of each period is mandatory",
+            "end": "2021-11-10T16:00:00+01:00",
             "strict": true
         },
         {
-            "start": "2019-03-29T22:00:00+01:00",
-            "end": "2019-03-29T23:30:00+01:00",
+            "start.doc": "start of each period is mandatory",
+            "start": "2021-11-10T16:15:00+01:00",
+            "end.doc": "end of each period is mandatory",
+            "end": "2021-11-10T17:30:00+01:00",
+            "strict": false
+        },
+        {
+            "start": "2021-11-10T20:45:00+01:00",
+            "end": "2021-11-10T23:30:00+01:00",
             "prefix.doc": " When a prefix is set in a period, it is applied to each event appearing during this period",
             "prefix": "[BACKUP]"
         }
@@ -38,41 +44,81 @@
     "break": "5 minutes",
     "overrides.doc": "Elements here allow talks which miss some informations to have these informations injected. Each element in this map links talk title (as given in conference-hall) to elements we want to inject.",
     "overrides": {
-        "fix(yagni): stop doing useless things": {
-            "formats.doc": "As an example, we set here the format to be 30 minutes (as it is not present in talk)",
-            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"
+        "Deno?": {
+            "rating": 5,
+            "reason.doc": "On commence en douce avec un quickie dans le monde JS"
         },
-        "Votre stack micro service, je vous la sers bloquante ou réactive ?": {
-            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"
+        "De 0 à 100 avec Accelerate": {
+            "rating": 4.9,
+            "reason.doc": "DevOps + archi"
         },
-        "Kubernetes and Vault integration for dummies": {
-            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"
+        "Spirale dynamique : le modèle darwinien de la conscience humain": {
+            "rating": 4.8,
+            "reason.doc": "Un deuxième quickie, qui va parler psychologie"
         },
-        "GitOps avec WeaveFlux": {
-            "formats": "148f51e1-32d0-556b-bb56-b343cad5ad04"
+        "Archi Hexa : adaptez vous, ne soyez plus un port": {
+            "rating": 4.7,
+            "reason.doc": "Et on passe à un poil d'arch"
         },
-        "Que se passe t-il lorsque je vais sur Google.fr ?": {
-
+        "L'art de donner du feedback": {
+            "rating": 4.6,
+            "reason.doc": "Un peu d'agilité"
         },
-        "What's new on the Web platform ?": {
+        "Game of Nodes ou comment fonctionnent les systèmes distribués ?": {
+            "rating": 4.5,
+            "reason.doc": "Avant le gros morceau"
+        },
+        "Utiliser WASI pour déployer du code pendant le runtime": {
+            "rating": 4.4,
+            "reason.doc": "Avant le gros morceau"
+        },
+        "C4 et au-delà : documenter une architecture agilement": {
             "rating": 0,
-            "reason.doc": "Emmanuel n'est plus disponible pour une bonne raison"
+            "reason.doc": "Pas deux fois les mêmes speakers"
         },
-        "Comment développez votre prochaine application Web avec Firebase": {
+        "Mes dévs bichonnent la Prod": {
             "rating": 0,
-            "reason.doc": "Emmanuel n'est plus disponible pour une bonne raison"
+            "reason.doc": "Pas deux fois les mêmes speakers"
         },
-        "ReasonML: The basics": {
+        "L'art abstrait ou la manière de spécifier ses systèmes": {
             "rating": 0,
-            "reason.doc": "Emmanuel n'est plus disponible pour une bonne raison"
+            "reason.doc": "Pas deux fois les mêmes speakers"
         },
-        "Le petit Nicolas fait du Web": {
+        "Règles de gestion : un outils pour les gouverner toutes et dans les ténèbres les lier": {
             "rating": 0,
-            "reason.doc": "Emmanuel n'est plus disponible pour une bonne raison"
+            "reason.doc": "Pas deux fois les mêmes speakers"
         },
-        "TLS 1.3 arrive!!! Et si on comprenait déjà ce que fait TLS 1.2 ?": {
+        "Extreme feedback : comment le feedback rapide a fait de moi un meilleur développeur": {
             "rating": 0,
-            "reason.doc": "Arnaud est malade"
+            "reason.doc": "Pas deux fois les mêmes speakers"
+        },
+        "Dix ans pour passer en prod, c'est assez ?": {
+            "rating": 0,
+            "reason.doc": "Pas deux fois les mêmes speakers"
+        },
+        "Voyage en code inconnu": {
+            "rating": 0,
+            "reason.doc": "Pas deux fois les mêmes speakers"
         }
-    }
+    },
+    "formats": [
+        {
+            "description": "15 minutes, c'est assez rapide, mais en même temps pour certains sujets c'est largement suffisant",
+            "id": "efa03f00-176e-510d-b55b-7e0fe2106124",
+            "duration": "15 minutes",
+            "name.initial": "🕒 vite dit"
+        },
+        {
+            "duration": "45 minutes",
+            "name.initial": "👨‍🏫 conférence",
+            "description": "45 minutes, ça donne le temps d'aborder la plupart des sujets en profondeur",
+            "id": "5928b087-f1da-58f5-9f96-6317e2488428"
+        },
+        {
+            "duration": "2 hours",
+            "name.initial": "🧪🥼💥 les mains dans le cambouis",
+            "description": "En 2 heures, on a le temps de s'en mettre partout",
+            "id": "0a76fe75-42ef-5c07-9fd5-032aa8482301"
+        }
+    ]
 }
