@@ -12,7 +12,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 To run the script (python or docker), you need to have an existing Google Agenda `credentials.json`.
-To obtain it, you'll have to create a google api account, add the Google Agenda API, then download the `credentials.json` file.
+To obtain it, you'll have to create a google api account, add the Google Agenda API, then download the `credentials.json` file for the OAuth 2 client you've created (see [this example](https://console.cloud.google.com/apis/credentials?project=synchro-agenda-ndx)).
 See one of these links as an example documentation:
 
 - [Python Quickstart](https://developers.google.com/calendar/quickstart/python)
