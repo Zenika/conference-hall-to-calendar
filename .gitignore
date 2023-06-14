@@ -1,6 +1,5 @@
 # IDE
 .idea
-.vscode
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -108,3 +107,7 @@ venv.bak/
 credentials.json
 token.pickle
 config.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore

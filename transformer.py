@@ -237,8 +237,11 @@ def create_event_description(talk, config):
     returned = ""
     for s in talk['speakers']:
         returned += s['displayName']
-        if 'twitter' in s:
-            returned += ' (@'+s['twitter']+')'
+        if 'twitter' in s and s['twitter']:
+            twitter_handle = s['twitter']
+            if not twitter_handle.startswith('@'):
+                twitter_handle = '@' + twitter_handle
+            returned += ' ('+twitter_handle+')'
         returned += '\n'
     returned += '\n'
     returned += talk['abstract']
